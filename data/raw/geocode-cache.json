@@ -1,0 +1,233 @@
+{
+ "arroyito-ar": {
+  "lat": "-31.41924",
+  "lon": "-63.05094",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "asuncion-py": {
+  "lat": "-25.28005",
+  "lon": "-57.63438",
+  "country": "PY",
+  "source": "nominatim"
+ },
+ "buenos-aires-ar": {
+  "lat": "-34.60956",
+  "lon": "-58.38879",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "canelones-uy": {
+  "lat": "-34.62225",
+  "lon": "-55.99038",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "castelo-branco-pr": {
+  "lat": "-25.21315",
+  "lon": "-53.29999",
+  "country": "BR",
+  "source": "nominatim"
+ },
+ "ciudad-de-la-costa-uy": {
+  "lat": "-34.82558",
+  "lon": "-55.95896",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "ciudad-del-este-py": {
+  "lat": "-25.5169",
+  "lon": "-54.61686",
+  "country": "PY",
+  "source": "nominatim"
+ },
+ "cordoba-ar": {
+  "lat": "-31.41669",
+  "lon": "-64.18342",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "coronel-oviedo-py": {
+  "lat": "-25.45005",
+  "lon": "-56.4407",
+  "country": "PY",
+  "source": "nominatim"
+ },
+ "encarnacion-py": {
+  "lat": "-27.33761",
+  "lon": "-55.86695",
+  "country": "PY",
+  "source": "nominatim"
+ },
+ "gama-df": {
+  "lat": "-16.01709",
+  "lon": "-48.06531",
+  "source": "seed-osm-2022"
+ },
+ "itapage-ce": {
+  "lat": "-3.66787",
+  "lon": "-39.59168",
+  "source": "seed-osm-2022"
+ },
+ "jericoacoara-ce": {
+  "lat": "-2.89863",
+  "lon": "-40.45061",
+  "source": "seed-osm-2022"
+ },
+ "jose-pedro-varela-uy": {
+  "lat": "-33.45647",
+  "lon": "-54.53535",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "maldonado-uy": {
+  "lat": "-34.90872",
+  "lon": "-54.95827",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "marcos-juarez-uy": {
+  "lat": "-32.69469",
+  "lon": "-62.10439",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "melo-uy": {
+  "lat": "-32.36808",
+  "lon": "-54.16971",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "mercedes-uy": {
+  "lat": "-33.24842",
+  "lon": "-58.02987",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "minas-uy": {
+  "lat": "-34.3774",
+  "lon": "-55.23821",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "misiones-ar": {
+  "lat": "-27.3671",
+  "lon": "-55.8961",
+  "name": "Posadas",
+  "country": "AR",
+  "source": "manual"
+ },
+ "montevideo-uy": {
+  "lat": "-34.90589",
+  "lon": "-56.19131",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "parana-ar": {
+  "lat": "-31.73301",
+  "lon": "-60.52985",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "planaltina-df": {
+  "lat": "-15.61819",
+  "lon": "-47.65557",
+  "source": "seed-osm-2022"
+ },
+ "punta-del-este-uy": {
+  "lat": "-34.96323",
+  "lon": "-54.944",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "rio-branco-uy": {
+  "lat": "-32.58869",
+  "lon": "-53.37808",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "rivera-uy": {
+  "lat": "-30.90006",
+  "lon": "-55.54082",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "rocha-uy": {
+  "lat": "-34.4833",
+  "lon": "-54.3333",
+  "country": "UY",
+  "source": "manual"
+ },
+ "rosario-ar": {
+  "lat": "-32.95936",
+  "lon": "-60.6617",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "san-carlos-uy": {
+  "lat": "-34.79204",
+  "lon": "-54.92075",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "san-francisco-ar": {
+  "lat": "-31.42498",
+  "lon": "-62.08403",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "santa-cruz-de-la-sierra-bo": {
+  "lat": "-17.78342",
+  "lon": "-63.18209",
+  "country": "BO",
+  "source": "nominatim"
+ },
+ "santa-fe-ar": {
+  "lat": "-30.31547",
+  "lon": "-61.16451",
+  "country": "AR",
+  "source": "nominatim"
+ },
+ "sobradinho-df": {
+  "lat": "-15.65005",
+  "lon": "-47.78484",
+  "source": "seed-osm-2022"
+ },
+ "tacuarembo-uy": {
+  "lat": "-31.7333",
+  "lon": "-55.9833",
+  "country": "UY",
+  "source": "manual"
+ },
+ "taguatinga-df": {
+  "lat": "-15.83353",
+  "lon": "-48.05657",
+  "source": "seed-osm-2022"
+ },
+ "treinta-y-tres-uy": {
+  "lat": "-33.2333",
+  "lon": "-54.3833",
+  "country": "UY",
+  "source": "manual"
+ },
+ "uruguai-uy": {
+  "lat": "-33.3806",
+  "lon": "-56.5236",
+  "name": "Durazno",
+  "country": "UY",
+  "source": "manual"
+ },
+ "vergara-uy": {
+  "lat": "-32.93767",
+  "lon": "-53.93775",
+  "country": "UY",
+  "source": "nominatim"
+ },
+ "villa-maria-uy": {
+  "lat": "-32.4075",
+  "lon": "-63.2402",
+  "name": "Villa María",
+  "country": "AR",
+  "source": "manual"
+ }
+}

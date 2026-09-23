@@ -1,0 +1,7 @@
+{
+ "_comment": "empresa no deonibus -> empresa no levabici, quando o slug e o nome não batem. Use null pra vetar um casamento automático errado. Conferido pelos trajetos das avaliações.",
+ "irmaos-teixeira": "teixeira",
+ "passaro-marron": "passaro-marrom",
+ "penha": "nossa-senhora-da-penha",
+ "stilo": "viacao-stilo"
+}

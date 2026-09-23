@@ -1,0 +1,45 @@
+name: refresh-data
+
+# Todo dia 1º: raspa o deonibus de novo, reconstrói o grafo (que também
+# reatualiza os owl:sameAs com o levabici), refaz as rotas pela estrada,
+# valida e abre um PR — dá pra ver no diff o que entrou e saiu antes de
+# publicar.
+on:
+  schedule:
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run python pipeline/scrape_deonibus.py
+      - run: uv run python pipeline/build_graph.py
+      - name: rotas pela estrada (OSM do mês + OSRM no docker; ~45 min)
+        run: |
+          mkdir -p data/raw/osm
+          curl -sSfL -o data/raw/osm/brazil-latest.osm.pbf https://download.geofabrik.de/south-america/brazil-latest.osm.pbf
+          curl -sSfL -o data/raw/osm/south-america-latest.osm.pbf https://download.geofabrik.de/south-america-latest.osm.pbf
+          uv run python pipeline/route_roads.py
+      - run: uv run python pipeline/validate.py
+      - name: abrir PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "nada mudou"; exit 0
+          fi
+          branch="dados/$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data site/data
+          git commit -m "dados: deonibus $(date -u +%Y-%m-%d)"
+          git push -u origin "$branch"
+          gh pr create --fill --body "$(printf 'Snapshot novo do deonibus + grafo reconstruído.\n\n```json\n%s\n```' "$(jq 'del(.unresolved, .operators_partial, .operators_without_routes)' data/build-report.json)")"

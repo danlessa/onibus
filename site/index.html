@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>mapa dos ônibus rodoviários do Brasil</title>
+<meta name="description" content="Todos os trechos de ônibus rodoviário intermunicipal e interestadual do Brasil num mapa, por empresa — e quais empresas são amigas da bicicleta, segundo o levabici. Dados abertos em RDF.">
+<link rel="canonical" href="https://onibus.abiru.to/">
+<link rel="alternate" type="text/turtle" href="data/catalog.ttl" title="Catálogo do grafo RDF (DCAT/VoID)">
+<meta property="og:title" content="mapa dos ônibus rodoviários do Brasil">
+<meta property="og:description" content="Quais empresas ligam quais cidades — e quais levam a sua bici numa boa.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://onibus.abiru.to/">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Dataset",
+ "name": "Trechos de ônibus rodoviário do Brasil",
+ "url": "https://onibus.abiru.to/",
+ "description": "Ligações diretas de ônibus entre localidades brasileiras, por empresa, como grafo RDF.",
+ "inLanguage": "pt-BR",
+ "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+ "distribution": [
+   {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://onibus.abiru.to/data/catalog.ttl"},
+   {"@type": "DataDownload", "encodingFormat": "application/trig", "contentUrl": "https://onibus.abiru.to/data/deonibus.trig"}
+ ]}
+</script>
+<meta name="theme-color" content="#f2f3f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+
+<!-- Vendorados em lib/ (local-first: nada de CDN no caminho crítico). -->
+<link rel="stylesheet" href="lib/maplibre-gl.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="map" role="region" aria-label="mapa dos trechos de ônibus"></div>
+
+<aside id="panel" aria-label="controles do mapa">
+  <header class="panel-head">
+    <h1><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 2h16a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2h-1v2a1 1 0 0 1-2 0v-2H7v2a1 1 0 0 1-2 0v-2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm1 4v6h14V6H5Zm1.5 8.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm11 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>ônibus rodoviários do Brasil</h1>
+    <button id="panel-toggle" class="icon-btn" aria-expanded="true" aria-controls="panel-body" title="recolher painel">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14l5-5 5 5z"/></svg>
+    </button>
+  </header>
+
+  <div id="panel-body">
+    <div class="search">
+      <input id="search" type="search" placeholder="buscar cidade ou empresa…" autocomplete="off"
+             aria-label="buscar cidade ou empresa" aria-controls="search-results" aria-autocomplete="list">
+      <ul id="search-results" role="listbox" hidden></ul>
+    </div>
+
+    <div class="mode" role="radiogroup" aria-label="colorir os trechos por">
+      <button role="radio" data-mode="empresa" aria-checked="true">por empresa</button>
+      <button role="radio" data-mode="bici" aria-checked="false">por amigabilidade à bici</button>
+    </div>
+
+    <div class="basemap" role="radiogroup" aria-label="mapa de fundo">
+      <span class="basemap-label">fundo</span>
+      <button role="radio" data-basemap="claro" aria-checked="false">claro</button>
+      <button role="radio" data-basemap="escuro" aria-checked="false">escuro</button>
+      <button role="radio" data-basemap="preto" aria-checked="false">preto</button>
+    </div>
+
+    <section id="focus" aria-live="polite" hidden></section>
+    <section id="legend" aria-live="polite"></section>
+
+    <footer class="panel-foot">
+      <span id="status">carregando o grafo…</span>
+      <button id="about-open" class="link-btn">sobre &amp; dados</button>
+    </footer>
+  </div>
+</aside>
+
+<div id="tooltip" role="tooltip" hidden></div>
+
+<dialog id="about">
+  <form method="dialog" class="dialog-close"><button class="icon-btn" aria-label="fechar">×</button></form>
+  <h2>sobre</h2>
+  <p>Cada ligação é um ônibus <strong>direto</strong> entre duas localidades, operado por uma empresa. No mapa ela
+     segue a estrada: o caminho mais rápido de carro pelo <a href="https://www.openstreetmap.org/" rel="noopener">OpenStreetMap</a>,
+     calculado com <a href="https://project-osrm.org/" rel="noopener">OSRM</a> — não é o itinerário oficial da linha, e não diz nada
+     de horários. Quem divide rodovia divide a linha, e a espessura mostra quantas empresas passam ali.</p>
+  <p>As empresas vêm das páginas de cada viação no <a href="https://deonibus.com/viacao" rel="noopener">deonibus.com</a>;
+     as coordenadas, do IBGE; as notas de amigabilidade à bicicleta, das avaliações do coletivo no
+     <a href="https://levabici.pedalhidrografi.co/" rel="noopener">levabici</a> (lidas ao vivo).
+     Empresa que não aparece ou nota que não bate? <a href="https://levabici.pedalhidrografi.co/#/nova" rel="noopener">avalie no levabici</a>
+     ou <a href="https://github.com/danlessa/mapa-onibus-br/issues" rel="noopener">abra uma issue</a>.</p>
+
+  <h2>o banco de dados é um grafo RDF</h2>
+  <p>O site não tem backend: carrega dumps RDF num <em>store</em> no navegador e deriva o mapa dele.
+     Cada empresa tem uma <code>ob:Network</code>, que é também o nome de um grafo com triplas
+     <code>&lt;origem&gt; ob:directTo &lt;destino&gt;</code>. Cada par de cidades tem uma <code>ob:Route</code> feita de
+     <code>ob:RoadSegment</code> compartilhados (geometria em <code>geo:asWKT</code>). As empresas se ligam às do levabici
+     por <code>owl:sameAs</code>.</p>
+  <ul id="about-datasets"></ul>
+  <p class="muted" id="about-stats"></p>
+  <p class="muted">No console do navegador, <code>grafo</code> é o <code>N3.Store</code> com tudo carregado.</p>
+
+  <details id="sparql">
+    <summary>consultar o grafo (SPARQL)</summary>
+    <p class="muted">Roda aqui mesmo, com o <a href="https://comunica.dev/" rel="noopener">Comunica</a> (baixado só quando você abre isto).
+       Fora de <code>GRAPH</code>, os padrões casam com a união de todos os grafos.</p>
+    <div class="sparql-examples" id="sparql-examples"></div>
+    <textarea id="sparql-query" spellcheck="false" rows="10" aria-label="consulta SPARQL"></textarea>
+    <div class="sparql-actions">
+      <button id="sparql-run" class="btn">executar</button>
+      <span id="sparql-status" class="muted"></span>
+    </div>
+    <div id="sparql-results"></div>
+  </details>
+</dialog>
+
+<script src="lib/n3.min.js"></script>
+<script src="lib/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

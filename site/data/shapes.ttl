@@ -1,0 +1,92 @@
+# Restrições SHACL do grafo. `make validate` roda o pyshacl sobre todos
+# os dumps do catálogo; Violation quebra o build, Warning só avisa.
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ob: <https://onibus.abiru.to/def#> .
+@prefix schema: <https://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+ob:NetworkShape a sh:NodeShape ;
+    sh:targetClass ob:Network ;
+    sh:property [
+        sh:path ob:operator ; sh:minCount 1 ; sh:maxCount 1 ; sh:class ob:Operator ;
+    ] , [
+        sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:nodeKind sh:IRI ;
+    ] , [
+        sh:path ob:complete ; sh:maxCount 1 ; sh:datatype xsd:boolean ;
+    ] , [
+        sh:path ob:linkCount ; sh:maxCount 1 ; sh:datatype xsd:integer ;
+    ] .
+
+# As ligações moram nos grafos das redes; a validação roda sobre a união.
+ob:DirectToShape a sh:NodeShape ;
+    sh:targetSubjectsOf ob:directTo ;
+    sh:class ob:Locality ;
+    sh:property [
+        sh:path ob:directTo ; sh:class ob:Locality ;
+    ] .
+
+ob:OperatorShape a sh:NodeShape ;
+    sh:targetClass ob:Operator ;
+    sh:property [
+        sh:path schema:name ; sh:minCount 1 ; sh:datatype xsd:string ;
+    ] , [
+        sh:path owl:sameAs ; sh:nodeKind sh:IRI ;
+    ] .
+
+# Localidade no Brasil tem UF; no exterior (há linhas pra AR, PY, UY…),
+# tem schema:addressCountry em vez disso.
+ob:LocalityShape a sh:NodeShape ;
+    sh:targetClass ob:Locality ;
+    sh:xone (
+        [ sh:path ob:uf ; sh:minCount 1 ]
+        [ sh:path schema:addressCountry ; sh:minCount 1 ]
+    ) ;
+    sh:property [
+        sh:path schema:name ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ;
+    ] , [
+        sh:path ob:uf ; sh:maxCount 1 ; sh:pattern "^[A-Z]{2}$" ;
+    ] , [
+        sh:path schema:addressCountry ; sh:maxCount 1 ; sh:pattern "^[A-Z]{2}$" ;
+    ] , [
+        sh:path schema:latitude ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:decimal ;
+    ] , [
+        sh:path schema:longitude ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:decimal ;
+    ] , [
+        sh:path schema:latitude ; sh:minInclusive -56.0 ; sh:maxInclusive 13.0 ;
+        sh:severity sh:Warning ; sh:message "latitude fora da América do Sul" ;
+    ] , [
+        sh:path schema:longitude ; sh:minInclusive -82.0 ; sh:maxInclusive -28.5 ;
+        sh:severity sh:Warning ; sh:message "longitude fora da América do Sul" ;
+    ] .
+
+ob:MunicipalityShape a sh:NodeShape ;
+    sh:targetClass ob:Municipality ;
+    sh:property [
+        sh:path ob:ibgeCode ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^[0-9]{7}$" ;
+    ] , [
+        sh:path ob:uf ; sh:minCount 1 ;
+    ] .
+
+ob:RouteShape a sh:NodeShape ;
+    sh:targetClass ob:Route ;
+    sh:property [
+        sh:path ob:endpoint ; sh:minCount 2 ; sh:maxCount 2 ; sh:class ob:Locality ;
+    ] , [
+        sh:path ob:roadSegments ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype ob:idList ; sh:pattern "^[0-9]+(-[0-9]+)?( [0-9]+(-[0-9]+)?)*$" ;
+    ] , [
+        sh:path ob:roadDistanceKm ; sh:maxCount 1 ; sh:datatype xsd:decimal ; sh:minExclusive 0 ;
+    ] .
+
+ob:RoadSegmentShape a sh:NodeShape ;
+    sh:targetClass ob:RoadSegment ;
+    sh:property [
+        sh:path geo:asWKT ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype geo:wktLiteral ; sh:pattern "^LINESTRING\\(" ;
+    ] , [
+        sh:path ob:offRoad ; sh:maxCount 1 ; sh:datatype xsd:boolean ;
+    ] .

@@ -1,0 +1,152 @@
+# Vocabulário do mapa-onibus-br (onibus.abiru.to).
+#
+# O banco de dados do site é um grafo RDF. Cada fonte é publicada como um
+# dump (Turtle ou TriG) e o catálogo (catalog.ttl, DCAT + VoID) lista os
+# dumps; o navegador carrega todos num único store e deriva a interface
+# dele. Este arquivo define as classes e propriedades próprias; o resto
+# vem de schema.org, VoID, DCAT, PROV e OWL.
+#
+# Modelo de rede: cada empresa, segundo cada fonte, tem uma ob:Network,
+# que é também o NOME de um grafo. Dentro dele só há triplas
+#     <origem> ob:directTo <destino> .
+# Assim, "quem liga A a B?" é "em quais grafos está (A directTo B)?", e o
+# dump fica com uma tripla por ligação em vez de um nó por trecho.
+#
+# Geometria: cada par de localidades ligado por alguma empresa tem uma
+# ob:Route (o caminho pela estrada, igual pra todas as empresas), feita de
+# ob:RoadSegment compartilhados — quem usa a mesma rodovia usa o mesmo
+# segmento, e no mapa as linhas se sobrepõem em vez de virar um novelo.
+
+@prefix ob: <https://onibus.abiru.to/def#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<https://onibus.abiru.to/def> a owl:Ontology ;
+    rdfs:label "Vocabulário do mapa de ônibus rodoviários do Brasil"@pt ,
+        "Brazilian inter-city bus map vocabulary"@en ;
+    dcterms:license <https://www.gnu.org/licenses/agpl-3.0.html> ;
+    rdfs:seeAlso <https://github.com/danlessa/mapa-onibus-br> .
+
+# ---------------------------------------------------------------- classes
+
+ob:Operator a owl:Class ;
+    rdfs:subClassOf schema:Organization ;
+    rdfs:label "empresa de ônibus"@pt , "bus operator"@en ;
+    rdfs:comment "Empresa (viação) que opera serviços rodoviários de passageiros."@pt .
+
+ob:Locality a owl:Class ;
+    rdfs:subClassOf schema:Place ;
+    rdfs:label "localidade"@pt , "locality"@en ;
+    rdfs:comment "Cidade, distrito ou vila servida por ônibus. Tem coordenadas (schema:latitude/longitude) e UF — ou schema:addressCountry, se fica fora do Brasil."@pt .
+
+ob:Municipality a owl:Class ;
+    rdfs:subClassOf ob:Locality , schema:City ;
+    rdfs:label "município"@pt , "municipality"@en ;
+    rdfs:comment "Município brasileiro, identificado pelo código IBGE de 7 dígitos. A IRI termina no código."@pt .
+
+ob:Network a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:label "rede"@pt , "network"@en ;
+    rdfs:comment """As ligações diretas de uma empresa segundo uma fonte. A IRI da rede
+é o nome do grafo que contém essas ligações (triplas ob:directTo). A
+proveniência (prov:wasDerivedFrom) aponta o dataset de origem."""@pt .
+
+# ---------------------------------------------------------------- propriedades
+
+ob:operator a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "empresa"@pt , "operator"@en ;
+    rdfs:domain ob:Network ;
+    rdfs:range ob:Operator .
+
+ob:directTo a owl:ObjectProperty ;
+    rdfs:label "tem ônibus direto para"@pt , "has a direct bus to"@en ;
+    rdfs:comment """Há serviço regular de ônibus, sem baldeação, da localidade sujeito
+à localidade objeto. É orientada: a volta é outra tripla. Só aparece
+dentro do grafo de uma ob:Network, que diz qual empresa opera a
+ligação. Não diz nada de horários nem do traçado na estrada."""@pt ;
+    rdfs:domain ob:Locality ;
+    rdfs:range ob:Locality .
+
+ob:complete a owl:DatatypeProperty ;
+    rdfs:label "lista completa"@pt , "complete listing"@en ;
+    rdfs:comment "Verdadeiro se a fonte lista todas as ligações da empresa; falso se só algumas (p.ex. 'rotas populares')."@pt ;
+    rdfs:domain ob:Network ;
+    rdfs:range xsd:boolean .
+
+ob:linkCount a owl:DatatypeProperty ;
+    rdfs:label "número de ligações"@pt , "link count"@en ;
+    rdfs:comment "Quantas triplas ob:directTo há no grafo da rede. Derivado; serve pra ordenar sem varrer o grafo."@pt ;
+    rdfs:domain ob:Network ;
+    rdfs:range xsd:integer .
+
+ob:uf a owl:DatatypeProperty ;
+    rdfs:label "UF"@pt , "state"@en ;
+    rdfs:comment "Sigla da unidade federativa (duas letras maiúsculas)."@pt ;
+    rdfs:domain ob:Locality ;
+    rdfs:range xsd:string .
+
+ob:ibgeCode a owl:DatatypeProperty ;
+    rdfs:subPropertyOf schema:identifier ;
+    rdfs:label "código IBGE"@pt , "IBGE code"@en ;
+    rdfs:domain ob:Municipality ;
+    rdfs:range xsd:string .
+
+# ---------------------------------------------------------------- geometria (estradas.ttl)
+
+ob:RoadSegment a owl:Class ;
+    rdfs:subClassOf geo:Geometry ;
+    rdfs:label "segmento de estrada"@pt , "road segment"@en ;
+    rdfs:comment """Pedaço contínuo de estrada entre dois entroncamentos da malha formada
+por todas as rotas. Geometria em geo:asWKT (WGS84, "lon lat"),
+simplificada a ~200 m. A IRI termina num id inteiro, que é como as
+rotas se referem a ele (ob:roadSegments)."""@pt .
+
+ob:Route a owl:Class ;
+    rdfs:label "rota"@pt , "route"@en ;
+    rdfs:comment """Caminho pela estrada entre duas localidades, não orientado e comum a
+todas as empresas que as ligam. Calculado com OSRM sobre o OpenStreetMap
+(rodovias até tertiary): é o caminho mais rápido de carro, não o
+itinerário declarado da linha."""@pt .
+
+ob:endpoint a owl:ObjectProperty ;
+    rdfs:label "ponta"@pt , "endpoint"@en ;
+    rdfs:comment "As duas localidades que a rota liga."@pt ;
+    rdfs:domain ob:Route ;
+    rdfs:range ob:Locality .
+
+ob:idList a rdfs:Datatype ;
+    rdfs:label "lista de ids"@pt , "id list"@en ;
+    rdfs:comment """Inteiros separados por espaço; "a-b" abrevia a faixa de a até b, subindo
+ou descendo de 1 em 1 ("5-8 20-18 3" = 5 6 7 8 20 19 18 3). Literal
+compacto no lugar de rdf:List — são dezenas de milhares de rotas com
+dezenas de segmentos cada."""@pt .
+
+ob:roadSegments a owl:DatatypeProperty ;
+    rdfs:label "segmentos de estrada"@pt , "road segments"@en ;
+    rdfs:comment "Ids dos ob:RoadSegment (IRI …/id/estrada/<id>) na ordem do percurso."@pt ;
+    rdfs:domain ob:Route ;
+    rdfs:range ob:idList .
+
+ob:roadDistanceKm a owl:DatatypeProperty ;
+    rdfs:label "distância pela estrada (km)"@pt , "road distance (km)"@en ;
+    rdfs:domain ob:Route ;
+    rdfs:range xsd:decimal .
+
+ob:offRoad a owl:DatatypeProperty ;
+    rdfs:label "fora da estrada"@pt , "off-road"@en ;
+    rdfs:comment """Verdadeiro quando o segmento não é estrada, e sim uma reta: da
+localidade até a malha, quando ela fica a mais de 3 km da rodovia
+mais próxima (tertiary ou maior), ou uma rota que o roteador não achou."""@pt ;
+    rdfs:domain ob:RoadSegment ;
+    rdfs:range xsd:boolean .
+
+ob:straightLine a owl:DatatypeProperty ;
+    rdfs:label "em linha reta"@pt , "straight line"@en ;
+    rdfs:comment "Verdadeiro quando o roteador não achou caminho e a rota é só a reta entre as pontas."@pt ;
+    rdfs:domain ob:Route ;
+    rdfs:range xsd:boolean .

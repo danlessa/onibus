@@ -1,0 +1,86 @@
+@prefix emp: <https://id.pedalhidrografi.co/levabici/empresa/> .
+@prefix op: <https://onibus.abiru.to/id/empresa/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+op:1001 owl:sameAs emp:1001 .
+
+op:aguia-branca owl:sameAs emp:aguia-branca .
+
+op:atibaia owl:sameAs emp:atibaia .
+
+op:brasil-sul owl:sameAs emp:brasil-sul .
+
+op:cambui owl:sameAs emp:cambui .
+
+op:catarinense owl:sameAs emp:catarinense .
+
+op:cetro owl:sameAs emp:cetro .
+
+op:cometa owl:sameAs emp:cometa .
+
+op:danubio-azul owl:sameAs emp:danubio-azul .
+
+op:emtram owl:sameAs emp:emtram .
+
+op:eucatur owl:sameAs emp:eucatur .
+
+op:expresso-do-sul owl:sameAs emp:expresso-do-sul .
+
+op:expresso-luxo owl:sameAs emp:expresso-luxo .
+
+op:expresso-nordeste owl:sameAs emp:expresso-nordeste .
+
+op:expresso-uniao owl:sameAs emp:expresso-uniao .
+
+op:flixbus owl:sameAs emp:flixbus .
+
+op:garcia owl:sameAs emp:garcia .
+
+op:gontijo owl:sameAs emp:gontijo .
+
+op:graciosa owl:sameAs emp:graciosa .
+
+op:guanabara owl:sameAs emp:expresso-guanabara .
+
+op:irmaos-teixeira owl:sameAs emp:teixeira .
+
+op:itapemirim owl:sameAs emp:itapemirim .
+
+op:kaissara owl:sameAs emp:kaissara .
+
+op:ouro-e-prata owl:sameAs emp:ouro-e-prata .
+
+op:passaro-marron owl:sameAs emp:passaro-marrom .
+
+op:passaro-verde owl:sameAs emp:passaro-verde .
+
+op:penha owl:sameAs emp:nossa-senhora-da-penha .
+
+op:piracicabana owl:sameAs emp:piracicabana .
+
+op:rapido-ribeirao owl:sameAs emp:rapido-ribeirao .
+
+op:real-expresso owl:sameAs emp:real-expresso .
+
+op:reunidas-paulista owl:sameAs emp:reunidas-paulista .
+
+op:riodoce owl:sameAs emp:riodoce .
+
+op:santa-cruz owl:sameAs emp:santa-cruz .
+
+op:saritur owl:sameAs emp:saritur .
+
+op:stilo owl:sameAs emp:viacao-stilo .
+
+op:teresopolis owl:sameAs emp:teresopolis .
+
+op:ultra owl:sameAs emp:ultra .
+
+op:unica-facil owl:sameAs emp:unica-facil .
+
+op:util owl:sameAs emp:util .
+
+op:vale-do-tiete owl:sameAs emp:vale-do-tiete .
+
+op:vallesul owl:sameAs emp:valle-sul .
+

@@ -1,0 +1,83 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ds: <https://onibus.abiru.to/id/dataset/> .
+@prefix ob: <https://onibus.abiru.to/def#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ds:catalogo a dcat:Catalog ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Grafo do mapa de ônibus rodoviários do Brasil"@pt ;
+    dcat:dataset ds:deonibus,
+        ds:estradas,
+        ds:levabici,
+        ds:levabici-links,
+        ds:municipios,
+        ds:vocab ;
+    dcat:landingPage <https://onibus.abiru.to/> .
+
+ds:estradas a void:Dataset,
+        dcat:Dataset ;
+    dcterms:description "Caminho pela estrada de cada par de localidades das redes, em segmentos compartilhados (OSRM sobre o OpenStreetMap, rodovias até tertiary)."@pt ;
+    dcterms:source <https://www.openstreetmap.org/copyright> ;
+    dcterms:title "Rotas pela estrada"@pt ;
+    void:classPartition [ void:class ob:RoadSegment ;
+            void:entities 51270 ],
+        [ void:class ob:Route ;
+            void:entities 36167 ] ;
+    void:dataDump <https://onibus.abiru.to/data/estradas.ttl> ;
+    void:triples 283395 ;
+    prov:generatedAtTime "2026-09-23T02:56:28+00:00"^^xsd:dateTime .
+
+ds:levabici-links a void:Dataset,
+        void:Linkset,
+        dcat:Dataset ;
+    dcterms:description "Identidade (owl:sameAs) entre as empresas deste grafo e as do levabici."@pt ;
+    dcterms:title "Empresas ↔ levabici"@pt ;
+    void:dataDump <https://onibus.abiru.to/data/levabici-links.ttl> ;
+    void:linkPredicate owl:sameAs ;
+    void:objectsTarget ds:levabici ;
+    void:subjectsTarget ds:deonibus ;
+    void:triples 41 ;
+    prov:generatedAtTime "2026-09-23T02:22:15+00:00"^^xsd:dateTime .
+
+ds:municipios a void:Dataset,
+        dcat:Dataset ;
+    dcterms:description "Municípios (IBGE, com coordenadas e item do Wikidata) e demais localidades que aparecem nas redes."@pt ;
+    dcterms:source <https://github.com/kelvins/municipios-brasileiros> ;
+    dcterms:title "Localidades servidas"@pt ;
+    void:classPartition [ void:class ob:Locality ;
+            void:entities 38 ],
+        [ void:class ob:Municipality ;
+            void:entities 2874 ] ;
+    void:dataDump <https://onibus.abiru.to/data/municipios.ttl> ;
+    void:triples 20308 ;
+    prov:generatedAtTime "2026-09-23T02:22:15+00:00"^^xsd:dateTime .
+
+ds:vocab a dcat:Dataset ;
+    dcterms:title "Vocabulário"@pt ;
+    void:dataDump <https://onibus.abiru.to/data/vocab.ttl> .
+
+ds:deonibus a void:Dataset,
+        dcat:Dataset ;
+    dcterms:description "Ligações diretas listadas na página de cada viação no deonibus.com, agregadas por município. Um grafo nomeado por empresa."@pt ;
+    dcterms:source <https://deonibus.com/viacao> ;
+    dcterms:title "Redes das empresas — deonibus.com"@pt ;
+    void:classPartition [ void:class ob:Network ;
+            void:entities 345 ],
+        [ void:class ob:Operator ;
+            void:entities 345 ] ;
+    void:dataDump <https://onibus.abiru.to/data/deonibus.trig> ;
+    void:propertyPartition [ void:property ob:directTo ;
+            void:triples 88766 ] ;
+    void:triples 92089 ;
+    prov:generatedAtTime "2026-09-23T00:45:15+00:00"^^xsd:dateTime .
+
+ds:levabici a void:Dataset,
+        dcat:Dataset ;
+    dcterms:title "levabici — avaliações de transporte de bicicleta"@pt ;
+    void:dataDump <https://levabici.pedalhidrografi.co/data/reviews.ttl> ;
+    dcat:landingPage <https://levabici.pedalhidrografi.co/> .
+
