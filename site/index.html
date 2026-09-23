@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>mapa dos ônibus rodoviários do Brasil</title>
 <meta name="description" content="Todos os trechos de ônibus rodoviário intermunicipal e interestadual do Brasil num mapa, por empresa — e quais empresas são amigas da bicicleta, segundo o levabici. Dados abertos em RDF.">
-<link rel="canonical" href="https://onibus.abiru.to/">
+<link rel="canonical" href="https://abiru.to/onibus/">
 <link rel="alternate" type="text/turtle" href="data/catalog.ttl" title="Catálogo do grafo RDF (DCAT/VoID)">
 <meta property="og:title" content="mapa dos ônibus rodoviários do Brasil">
 <meta property="og:description" content="Quais empresas ligam quais cidades — e quais levam a sua bici numa boa.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://onibus.abiru.to/">
+<meta property="og:url" content="https://abiru.to/onibus/">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "Dataset",
  "name": "Trechos de ônibus rodoviário do Brasil",
- "url": "https://onibus.abiru.to/",
+ "url": "https://abiru.to/onibus/",
  "description": "Ligações diretas de ônibus entre localidades brasileiras, por empresa, como grafo RDF.",
  "inLanguage": "pt-BR",
  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
  "distribution": [
-   {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://onibus.abiru.to/data/catalog.ttl"},
-   {"@type": "DataDownload", "encodingFormat": "application/trig", "contentUrl": "https://onibus.abiru.to/data/deonibus.trig"}
+   {"@type": "DataDownload", "encodingFormat": "text/turtle", "contentUrl": "https://abiru.to/onibus/data/catalog.ttl"},
+   {"@type": "DataDownload", "encodingFormat": "application/trig", "contentUrl": "https://abiru.to/onibus/data/deonibus.trig"}
  ]}
 </script>
 <meta name="theme-color" content="#f2f3f0" media="(prefers-color-scheme: light)">
@@ -85,7 +85,7 @@
      as coordenadas, do IBGE; as notas de amigabilidade à bicicleta, das avaliações do coletivo no
      <a href="https://levabici.pedalhidrografi.co/" rel="noopener">levabici</a> (lidas ao vivo).
      Empresa que não aparece ou nota que não bate? <a href="https://levabici.pedalhidrografi.co/#/nova" rel="noopener">avalie no levabici</a>
-     ou <a href="https://github.com/danlessa/mapa-onibus-br/issues" rel="noopener">abra uma issue</a>.</p>
+     ou <a href="https://github.com/danlessa/onibus/issues" rel="noopener">abra uma issue</a>.</p>
 
   <h2>o banco de dados é um grafo RDF</h2>
   <p>O site não tem backend: carrega dumps RDF num <em>store</em> no navegador e deriva o mapa dele.

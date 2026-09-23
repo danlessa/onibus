@@ -2,7 +2,7 @@
 # os dumps do catálogo; Violation quebra o build, Warning só avisa.
 
 @prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix ob: <https://onibus.abiru.to/def#> .
+@prefix ob: <https://abiru.to/onibus/def#> .
 @prefix schema: <https://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .

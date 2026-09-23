@@ -1,6 +1,6 @@
 name: pages
 
-# Publica site/ no GitHub Pages (onibus.abiru.to) depois de validar o grafo.
+# Publica site/ no GitHub Pages (abiru.to/onibus) depois de validar o grafo.
 on:
   push:
     branches: [main]

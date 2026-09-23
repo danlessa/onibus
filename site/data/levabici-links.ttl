@@ -1,5 +1,5 @@
 @prefix emp: <https://id.pedalhidrografi.co/levabici/empresa/> .
-@prefix op: <https://onibus.abiru.to/id/empresa/> .
+@prefix op: <https://abiru.to/onibus/id/empresa/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 op:1001 owl:sameAs emp:1001 .

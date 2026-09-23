@@ -57,7 +57,7 @@ OSRM_IMAGE = "ghcr.io/project-osrm/osrm-backend:latest"
 SNAP_CONNECTOR_M = 3000  # ponto longe da estrada filtrada: liga em reta
 SIMPLIFY_DEG = 0.002  # ~200 m; suficiente até zoom ~9
 
-SITE = "https://onibus.abiru.to/"
+SITE = "https://abiru.to/onibus/"
 OB = Namespace(SITE + "def#")
 MUN = Namespace(SITE + "id/municipio/")
 LOC = Namespace(SITE + "id/localidade/")

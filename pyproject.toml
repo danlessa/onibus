@@ -1,7 +1,7 @@
 [project]
 name = "mapa-onibus-br"
 version = "0.1.0"
-description = "Pipeline que gera o grafo RDF dos trechos de ônibus rodoviário do Brasil (onibus.abiru.to)"
+description = "Pipeline que gera o grafo RDF dos trechos de ônibus rodoviário do Brasil (abiru.to/onibus)"
 requires-python = ">=3.11"
 dependencies = [
     "beautifulsoup4>=4.12",

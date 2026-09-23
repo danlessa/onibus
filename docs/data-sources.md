@@ -1,6 +1,6 @@
 # Data sources — Brazilian inter-city bus services
 
-Research log for `mapa-onibus-br` (map at onibus.abiru.to). Goal: records of the
+Research log for `mapa-onibus-br` (map at abiru.to/onibus). Goal: records of the
 form `(company, origin city, destination city)`, ideally with stops/sections,
 schedules, geometry, CNPJ and validity date, covering more than the current seed
 (deonibus.com marketplace listings, ~368 companies).

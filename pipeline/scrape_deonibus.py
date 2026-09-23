@@ -19,7 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://deonibus.com"
-HEADERS = {"User-Agent": "mapa-onibus-br/0.1 (+https://github.com/danlessa/mapa-onibus-br)"}
+HEADERS = {"User-Agent": "mapa-onibus-br/0.1 (+https://github.com/danlessa/onibus)"}
 WORKERS = 3
 PAUSE_S = 1.0
 RETRIES = 3

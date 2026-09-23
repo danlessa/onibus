@@ -38,7 +38,7 @@ RAW = ROOT / "data" / "raw"
 OUT = ROOT / "site" / "data"
 ALIASES = Path(__file__).resolve().parent / "levabici_aliases.json"
 
-SITE = "https://onibus.abiru.to/"
+SITE = "https://abiru.to/onibus/"
 OB = Namespace(SITE + "def#")
 OP = Namespace(SITE + "id/empresa/")
 MUN = Namespace(SITE + "id/municipio/")
@@ -52,7 +52,7 @@ LB = Namespace("https://id.pedalhidrografi.co/levabici/terms#")
 EMP = Namespace("https://id.pedalhidrografi.co/levabici/empresa/")
 LEVABICI_DUMP = URIRef("https://levabici.pedalhidrografi.co/data/reviews.ttl")
 
-UA = {"User-Agent": "mapa-onibus-br/0.1 (+https://github.com/danlessa/mapa-onibus-br)"}
+UA = {"User-Agent": "mapa-onibus-br/0.1 (+https://github.com/danlessa/onibus)"}
 MUNICIPIOS_URL = "https://raw.githubusercontent.com/kelvins/municipios-brasileiros/main/csv/municipios.csv"
 ESTADOS_URL = "https://raw.githubusercontent.com/kelvins/municipios-brasileiros/main/csv/estados.csv"
 WIKIDATA_QUERY = "SELECT ?item ?ibge WHERE { ?item wdt:P1585 ?ibge . ?item wdt:P31 wd:Q3184121 . }"

@@ -1,7 +1,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ds: <https://onibus.abiru.to/id/dataset/> .
-@prefix ob: <https://onibus.abiru.to/def#> .
+@prefix ds: <https://abiru.to/onibus/id/dataset/> .
+@prefix ob: <https://abiru.to/onibus/def#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -16,7 +16,7 @@ ds:catalogo a dcat:Catalog ;
         ds:levabici-links,
         ds:municipios,
         ds:vocab ;
-    dcat:landingPage <https://onibus.abiru.to/> .
+    dcat:landingPage <https://abiru.to/onibus/> .
 
 ds:estradas a void:Dataset,
         dcat:Dataset ;
@@ -27,7 +27,7 @@ ds:estradas a void:Dataset,
             void:entities 51270 ],
         [ void:class ob:Route ;
             void:entities 36167 ] ;
-    void:dataDump <https://onibus.abiru.to/data/estradas.ttl> ;
+    void:dataDump <https://abiru.to/onibus/data/estradas.ttl> ;
     void:triples 283395 ;
     prov:generatedAtTime "2026-09-23T02:56:28+00:00"^^xsd:dateTime .
 
@@ -36,12 +36,12 @@ ds:levabici-links a void:Dataset,
         dcat:Dataset ;
     dcterms:description "Identidade (owl:sameAs) entre as empresas deste grafo e as do levabici."@pt ;
     dcterms:title "Empresas ↔ levabici"@pt ;
-    void:dataDump <https://onibus.abiru.to/data/levabici-links.ttl> ;
+    void:dataDump <https://abiru.to/onibus/data/levabici-links.ttl> ;
     void:linkPredicate owl:sameAs ;
     void:objectsTarget ds:levabici ;
     void:subjectsTarget ds:deonibus ;
     void:triples 41 ;
-    prov:generatedAtTime "2026-09-23T02:22:15+00:00"^^xsd:dateTime .
+    prov:generatedAtTime "2026-09-23T12:09:32+00:00"^^xsd:dateTime .
 
 ds:municipios a void:Dataset,
         dcat:Dataset ;
@@ -52,13 +52,13 @@ ds:municipios a void:Dataset,
             void:entities 38 ],
         [ void:class ob:Municipality ;
             void:entities 2874 ] ;
-    void:dataDump <https://onibus.abiru.to/data/municipios.ttl> ;
+    void:dataDump <https://abiru.to/onibus/data/municipios.ttl> ;
     void:triples 20308 ;
-    prov:generatedAtTime "2026-09-23T02:22:15+00:00"^^xsd:dateTime .
+    prov:generatedAtTime "2026-09-23T12:09:32+00:00"^^xsd:dateTime .
 
 ds:vocab a dcat:Dataset ;
     dcterms:title "Vocabulário"@pt ;
-    void:dataDump <https://onibus.abiru.to/data/vocab.ttl> .
+    void:dataDump <https://abiru.to/onibus/data/vocab.ttl> .
 
 ds:deonibus a void:Dataset,
         dcat:Dataset ;
@@ -69,7 +69,7 @@ ds:deonibus a void:Dataset,
             void:entities 345 ],
         [ void:class ob:Operator ;
             void:entities 345 ] ;
-    void:dataDump <https://onibus.abiru.to/data/deonibus.trig> ;
+    void:dataDump <https://abiru.to/onibus/data/deonibus.trig> ;
     void:propertyPartition [ void:property ob:directTo ;
             void:triples 88766 ] ;
     void:triples 92089 ;

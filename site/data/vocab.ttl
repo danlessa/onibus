@@ -1,4 +1,4 @@
-# Vocabulário do mapa-onibus-br (onibus.abiru.to).
+# Vocabulário do mapa-onibus-br (abiru.to/onibus).
 #
 # O banco de dados do site é um grafo RDF. Cada fonte é publicada como um
 # dump (Turtle ou TriG) e o catálogo (catalog.ttl, DCAT + VoID) lista os
@@ -17,7 +17,7 @@
 # ob:RoadSegment compartilhados — quem usa a mesma rodovia usa o mesmo
 # segmento, e no mapa as linhas se sobrepõem em vez de virar um novelo.
 
-@prefix ob: <https://onibus.abiru.to/def#> .
+@prefix ob: <https://abiru.to/onibus/def#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
@@ -26,11 +26,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<https://onibus.abiru.to/def> a owl:Ontology ;
+<https://abiru.to/onibus/def> a owl:Ontology ;
     rdfs:label "Vocabulário do mapa de ônibus rodoviários do Brasil"@pt ,
         "Brazilian inter-city bus map vocabulary"@en ;
     dcterms:license <https://www.gnu.org/licenses/agpl-3.0.html> ;
-    rdfs:seeAlso <https://github.com/danlessa/mapa-onibus-br> .
+    rdfs:seeAlso <https://github.com/danlessa/onibus> .
 
 # ---------------------------------------------------------------- classes
 

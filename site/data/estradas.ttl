@@ -1,9 +1,9 @@
-@prefix est: <https://onibus.abiru.to/id/estrada/> .
+@prefix est: <https://abiru.to/onibus/id/estrada/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix loc: <https://onibus.abiru.to/id/localidade/> .
-@prefix mun: <https://onibus.abiru.to/id/municipio/> .
-@prefix ob: <https://onibus.abiru.to/def#> .
-@prefix rota: <https://onibus.abiru.to/id/rota/> .
+@prefix loc: <https://abiru.to/onibus/id/localidade/> .
+@prefix mun: <https://abiru.to/onibus/id/municipio/> .
+@prefix ob: <https://abiru.to/onibus/def#> .
+@prefix rota: <https://abiru.to/onibus/id/rota/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 est:0 a ob:RoadSegment ;

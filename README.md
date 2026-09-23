@@ -1,6 +1,6 @@
 # mapa-onibus-br
 
-**[onibus.abiru.to](https://onibus.abiru.to)** — every inter-city bus link in Brazil on one map,
+**[abiru.to/onibus](https://abiru.to/onibus/)** — every inter-city bus link in Brazil on one map,
 colored by operating company, or by how bike-friendly the company is according to
 [levabici](https://levabici.pedalhidrografi.co/).
 
@@ -36,10 +36,10 @@ named graph of its dataset. It fetches levabici's graph the same way, straight f
 of a graph containing only `<origin> ob:directTo <destination>` triples:
 
 ```trig
-<https://onibus.abiru.to/id/rede/deonibus/cometa> {      # graph name = the network
+<https://abiru.to/onibus/id/rede/deonibus/cometa> {      # graph name = the network
   mun:3550308 ob:directTo mun:4106902 , mun:3304557 , … .
 }
-<https://onibus.abiru.to/id/rede/deonibus/cometa> a ob:Network ;   # description, in the dataset's graph
+<https://abiru.to/onibus/id/rede/deonibus/cometa> a ob:Network ;   # description, in the dataset's graph
   ob:operator op:cometa ; ob:complete true ; ob:linkCount 790 ;
   prov:wasDerivedFrom ds:deonibus .
 ```
@@ -57,7 +57,7 @@ therefore stored once and drawn once, which is what makes lines overlap instead 
 hairball. The id list is a compact `ob:idList` literal rather than an `rdf:List`, because
 there are tens of thousands of routes with dozens of segments each.
 
-IRIs live under `https://onibus.abiru.to/`: `def#` (terms), `id/empresa/`,
+IRIs live under `https://abiru.to/onibus/`: `def#` (terms), `id/empresa/`,
 `id/municipio/<IBGE code>`, `id/localidade/`, `id/rede/`, `id/rota/`, `id/estrada/`, `id/dataset/`. They don't
 dereference yet, because GitHub Pages can't do content negotiation.
 
@@ -144,15 +144,16 @@ that to finish.
 `.github/workflows/refresh-data.yml` re-scrapes on the 1st of each month and opens a PR with
 the diff.
 
+It is served at **abiru.to/onibus**. abiru.to is the custom domain of the user site
+(`danlessa/danlessa.github.io`), and GitHub Pages serves every project site of the account
+under it at `abiru.to/<repo>/`. The repo is therefore named `onibus`, with no custom domain of its
+own and no DNS record. The page only uses relative paths, so it works under a subpath.
+
 One-time setup:
 
 ```sh
-gh api -X POST repos/danlessa/mapa-onibus-br/pages -f build_type=workflow
-gh api -X PUT  repos/danlessa/mapa-onibus-br/pages -f cname=onibus.abiru.to
+gh api -X POST repos/danlessa/onibus/pages -f build_type=workflow
 ```
-
-Then add a Cloudflare DNS record: `CNAME onibus → danlessa.github.io`, DNS-only (grey cloud)
-until GitHub issues the certificate.
 
 ## More data
 

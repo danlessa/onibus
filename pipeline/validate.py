@@ -13,7 +13,7 @@ from rdflib import Dataset, Graph, Namespace
 from rdflib.namespace import SH, VOID
 
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
-BASE = "https://onibus.abiru.to/"
+BASE = "https://abiru.to/onibus/"
 
 
 def main() -> None:

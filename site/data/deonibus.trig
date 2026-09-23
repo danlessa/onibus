@@ -1,13 +1,13 @@
-@prefix ds: <https://onibus.abiru.to/id/dataset/> .
-@prefix loc: <https://onibus.abiru.to/id/localidade/> .
-@prefix mun: <https://onibus.abiru.to/id/municipio/> .
-@prefix ob: <https://onibus.abiru.to/def#> .
-@prefix op: <https://onibus.abiru.to/id/empresa/> .
+@prefix ds: <https://abiru.to/onibus/id/dataset/> .
+@prefix loc: <https://abiru.to/onibus/id/localidade/> .
+@prefix mun: <https://abiru.to/onibus/id/municipio/> .
+@prefix ob: <https://abiru.to/onibus/def#> .
+@prefix op: <https://abiru.to/onibus/id/empresa/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://onibus.abiru.to/id/rede/deonibus/aguia-flex> {
+<https://abiru.to/onibus/id/rede/deonibus/aguia-flex> {
     mun:2800308 ob:directTo mun:2900702 .
 
     mun:2909802 ob:directTo mun:2914802 .
@@ -204,7 +204,7 @@
             mun:3304557 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/camurujipe> {
+<https://abiru.to/onibus/id/rede/deonibus/camurujipe> {
     mun:2927408 ob:directTo mun:2907301,
             mun:2909802,
             mun:2910305,
@@ -240,7 +240,7 @@
             mun:2925956 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/juina> {
+<https://abiru.to/onibus/id/rede/deonibus/juina> {
     mun:5101704 ob:directTo mun:5103403 .
 
     mun:5102504 ob:directTo mun:5103403 .
@@ -274,11 +274,11 @@
             mun:5107958 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/irmaos-faria> {
+<https://abiru.to/onibus/id/rede/deonibus/irmaos-faria> {
     mun:3132404 ob:directTo mun:3149101 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nossar> {
+<https://abiru.to/onibus/id/rede/deonibus/nossar> {
     loc:rivera-uy ob:directTo loc:buenos-aires-ar .
 
     loc:tacuarembo-uy ob:directTo loc:buenos-aires-ar .
@@ -288,7 +288,7 @@
             loc:uruguai-uy .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cruzeiro-do-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/cruzeiro-do-sul> {
     mun:5006358 ob:directTo mun:5000609 .
 
     mun:5002803 ob:directTo mun:5002100,
@@ -600,7 +600,7 @@
             mun:5007901 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lopes-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/lopes-sul> {
     mun:5103502 ob:directTo mun:3501608,
             mun:5211909,
             mun:5213103,
@@ -4451,7 +4451,7 @@
             mun:5219407 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gipsyy> {
+<https://abiru.to/onibus/id/rede/deonibus/gipsyy> {
     mun:3505500 ob:directTo mun:3170107 .
 
     mun:5201108 ob:directTo mun:3502507 .
@@ -4465,7 +4465,7 @@
     mun:5002704 ob:directTo mun:3541406 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/linhatur> {
+<https://abiru.to/onibus/id/rede/deonibus/linhatur> {
     mun:3106200 ob:directTo mun:3201506,
             mun:3203205 .
 
@@ -4484,7 +4484,7 @@
             mun:3136207 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/pevidor> {
+<https://abiru.to/onibus/id/rede/deonibus/pevidor> {
     mun:5102678 ob:directTo mun:5103403 .
 
     mun:5107602 ob:directTo mun:5103403 .
@@ -4494,7 +4494,7 @@
             mun:5107602 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transportes-santa-maria> {
+<https://abiru.to/onibus/id/rede/deonibus/transportes-santa-maria> {
     mun:3125101 ob:directTo mun:3550308 .
 
     mun:3522109 ob:directTo mun:4106902 .
@@ -4594,11 +4594,11 @@
             mun:4125506 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transoares> {
+<https://abiru.to/onibus/id/rede/deonibus/transoares> {
     mun:2910800 ob:directTo mun:2900702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-brasileiro> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-brasileiro> {
     mun:3548708 ob:directTo mun:3304557 .
 
     mun:3304557 ob:directTo mun:3550308 .
@@ -4607,7 +4607,7 @@
             mun:3304557 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-transamazonica> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-transamazonica> {
     mun:1301902 ob:directTo mun:1302603 .
 
     mun:1302009 ob:directTo mun:1302603 .
@@ -4624,7 +4624,7 @@
             mun:1304005 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-adamantina> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-adamantina> {
     mun:3115805 ob:directTo mun:5208707 .
 
     mun:3500105 ob:directTo mun:3502804 .
@@ -5220,7 +5220,7 @@
             mun:5007935 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/buscoop> {
+<https://abiru.to/onibus/id/rede/deonibus/buscoop> {
     mun:2304400 ob:directTo mun:2211001 .
 
     mun:4205407 ob:directTo mun:4106902 .
@@ -5230,7 +5230,7 @@
     mun:4106902 ob:directTo mun:4205407 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sandra> {
+<https://abiru.to/onibus/id/rede/deonibus/sandra> {
     mun:3118304 ob:directTo mun:3106200 .
 
     mun:3162500 ob:directTo mun:3106200 .
@@ -5239,7 +5239,7 @@
             mun:3550308 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/colitur> {
+<https://abiru.to/onibus/id/rede/deonibus/colitur> {
     mun:3504909 ob:directTo mun:3300407 .
 
     mun:3300100 ob:directTo mun:3300407,
@@ -5251,14 +5251,14 @@
     mun:3306305 ob:directTo mun:3300100 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/brisa> {
+<https://abiru.to/onibus/id/rede/deonibus/brisa> {
     mun:3136702 ob:directTo mun:3303302,
             mun:3304557 .
 
     mun:3304557 ob:directTo mun:3136702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/catarina> {
+<https://abiru.to/onibus/id/rede/deonibus/catarina> {
     mun:3125705 ob:directTo mun:5300108 .
 
     mun:3147402 ob:directTo mun:5300108 .
@@ -5428,7 +5428,7 @@
             mun:5206206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/guanabara> {
+<https://abiru.to/onibus/id/rede/deonibus/guanabara> {
     mun:2100154 ob:directTo mun:2312908 .
 
     mun:2100907 ob:directTo mun:2312908 .
@@ -11924,12 +11924,12 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/aries-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/aries-transportes> {
     mun:5100250 ob:directTo mun:5103403,
             mun:5107909 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/regional> {
+<https://abiru.to/onibus/id/rede/deonibus/regional> {
     mun:2905701 ob:directTo mun:2927408 .
 
     mun:2924009 ob:directTo mun:2927408 .
@@ -11941,7 +11941,7 @@
             mun:2924009 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transbraz> {
+<https://abiru.to/onibus/id/rede/deonibus/transbraz> {
     mun:2600104 ob:directTo mun:2612505 .
 
     mun:2504702 ob:directTo mun:2612505 .
@@ -11954,13 +11954,13 @@
     mun:2613602 ob:directTo mun:2516300 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nossa-senhora-do-amparo> {
+<https://abiru.to/onibus/id/rede/deonibus/nossa-senhora-do-amparo> {
     mun:3102506 ob:directTo mun:3152105 .
 
     mun:3152105 ob:directTo mun:3102506 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/saritur> {
+<https://abiru.to/onibus/id/rede/deonibus/saritur> {
     mun:3104304 ob:directTo mun:3106200 .
 
     mun:3114204 ob:directTo mun:3106705 .
@@ -13364,7 +13364,7 @@
             mun:3171907 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cabral> {
+<https://abiru.to/onibus/id/rede/deonibus/cabral> {
     mun:1713205 ob:directTo mun:1709302 .
 
     mun:1713304 ob:directTo mun:1721000 .
@@ -13372,7 +13372,7 @@
     mun:1721000 ob:directTo mun:4311403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-princesa-do-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-princesa-do-sul> {
     mun:2201101 ob:directTo mun:2201903,
             mun:2211001 .
 
@@ -13609,7 +13609,7 @@
             mun:2210508 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/itanorte> {
+<https://abiru.to/onibus/id/rede/deonibus/itanorte> {
     mun:5100805 ob:directTo mun:5100250,
             mun:5106299 .
 
@@ -13906,7 +13906,7 @@
             mun:5108055 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-maringa> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-maringa> {
     mun:4106902 ob:directTo mun:4109609 .
 
     mun:4128104 ob:directTo mun:4106902 .
@@ -13917,7 +13917,7 @@
             mun:5002704 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/real-transportes> {
     mun:4204202 ob:directTo mun:4205407 .
 
     mun:4205001 ob:directTo mun:4205407 .
@@ -13926,7 +13926,7 @@
             mun:4217204 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/presidente> {
+<https://abiru.to/onibus/id/rede/deonibus/presidente> {
     mun:3168408 ob:directTo mun:3106200 .
 
     mun:3113404 ob:directTo mun:3106200,
@@ -13977,7 +13977,7 @@
             mun:3170057 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-goiasnorte> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-goiasnorte> {
     mun:5204656 ob:directTo mun:5218003 .
 
     mun:5213087 ob:directTo mun:5218003,
@@ -13988,7 +13988,7 @@
             mun:5220207 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-fenix> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-fenix> {
     mun:3531308 ob:directTo mun:3503208,
             mun:3509502,
             mun:3548906,
@@ -14192,7 +14192,7 @@
             mun:5008305 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/danubio-azul> {
+<https://abiru.to/onibus/id/rede/deonibus/danubio-azul> {
     mun:3513009 ob:directTo mun:3519709,
             mun:3537800,
             mun:3550308,
@@ -14538,13 +14538,13 @@
             mun:3556453 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-vicente> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-vicente> {
     mun:3156106 ob:directTo mun:3162500 .
 
     mun:3162500 ob:directTo mun:3156106 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cetro> {
+<https://abiru.to/onibus/id/rede/deonibus/cetro> {
     mun:3168606 ob:directTo mun:2910800 .
 
     mun:2704302 ob:directTo mun:2800308 .
@@ -14557,17 +14557,17 @@
             mun:3106200 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/jbl> {
+<https://abiru.to/onibus/id/rede/deonibus/jbl> {
     mun:4318309 ob:directTo mun:4205407 .
 
     mun:4322400 ob:directTo mun:4202008 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-de-prata> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-de-prata> {
     mun:3550308 ob:directTo mun:3507902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/pernambucana> {
+<https://abiru.to/onibus/id/rede/deonibus/pernambucana> {
     mun:2612455 ob:directTo mun:2307304,
             mun:2602001,
             mun:2605301,
@@ -14837,7 +14837,7 @@
             mun:2918407 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transprata> {
+<https://abiru.to/onibus/id/rede/deonibus/transprata> {
     mun:3121803 ob:directTo mun:3136207,
             mun:3144706,
             mun:3161007 .
@@ -14855,7 +14855,7 @@
             mun:3163409 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/util> {
+<https://abiru.to/onibus/id/rede/deonibus/util> {
     mun:3108008 ob:directTo mun:3550308 .
 
     mun:3118601 ob:directTo mun:3304557 .
@@ -15717,7 +15717,7 @@
             mun:3162500 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/aguia-branca> {
+<https://abiru.to/onibus/id/rede/deonibus/aguia-branca> {
     mun:2801702 ob:directTo mun:2905701 .
 
     mun:2802304 ob:directTo mun:2611101 .
@@ -19244,7 +19244,7 @@
             mun:3306206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rodoviario-oceano> {
+<https://abiru.to/onibus/id/rede/deonibus/rodoviario-oceano> {
     mun:3518404 ob:directTo mun:3303807 .
 
     mun:3555406 ob:directTo mun:3303807 .
@@ -19256,7 +19256,7 @@
     mun:3554102 ob:directTo mun:3303807 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gil> {
+<https://abiru.to/onibus/id/rede/deonibus/gil> {
     mun:3119104 ob:directTo mun:3550308 .
 
     mun:2901353 ob:directTo mun:3541000,
@@ -19558,7 +19558,7 @@
             mun:3157005 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/brasil-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/brasil-sul> {
     mun:4108205 ob:directTo mun:3550308 .
 
     mun:4108601 ob:directTo mun:3550308 .
@@ -20211,7 +20211,7 @@
             mun:4128005 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/araguarina> {
+<https://abiru.to/onibus/id/rede/deonibus/araguarina> {
     mun:5201108 ob:directTo loc:taguatinga-df .
 
     mun:5300108 ob:directTo mun:3147006,
@@ -20219,7 +20219,7 @@
             mun:5208707 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/riodoce> {
+<https://abiru.to/onibus/id/rede/deonibus/riodoce> {
     mun:3304557 ob:directTo mun:3127701,
             mun:3131307,
             mun:3550308 .
@@ -20227,7 +20227,7 @@
     mun:3550308 ob:directTo mun:3304557 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/fabbitur-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/fabbitur-turismo> {
     mun:1702109 ob:directTo mun:1504208 .
 
     mun:1716109 ob:directTo mun:5201108 .
@@ -20237,7 +20237,7 @@
     mun:5208707 ob:directTo mun:1709302 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tres-estrelas> {
+<https://abiru.to/onibus/id/rede/deonibus/tres-estrelas> {
     mun:5213806 ob:directTo mun:3170107,
             mun:3170206,
             mun:3509502,
@@ -20300,7 +20300,7 @@
             mun:5213806 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nacional> {
+<https://abiru.to/onibus/id/rede/deonibus/nacional> {
     mun:2704302 ob:directTo mun:3304557 .
 
     mun:2910800 ob:directTo mun:3106200 .
@@ -20312,7 +20312,7 @@
     mun:3550308 ob:directTo mun:2927408 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/roderotas> {
+<https://abiru.to/onibus/id/rede/deonibus/roderotas> {
     mun:3170206 ob:directTo mun:3170107 .
 
     mun:5002704 ob:directTo mun:5103403 .
@@ -20325,7 +20325,7 @@
     mun:3550308 ob:directTo mun:3170206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/satelite-azul> {
+<https://abiru.to/onibus/id/rede/deonibus/satelite-azul> {
     mun:5105101 ob:directTo mun:5103403,
             mun:5105259,
             mun:5106224 .
@@ -20359,7 +20359,7 @@
             mun:5107925 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/arte-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/arte-transportes> {
     mun:2910800 ob:directTo mun:3509502 .
 
     mun:3509502 ob:directTo mun:2927408 .
@@ -20368,7 +20368,7 @@
             mun:3152501 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/catarinense> {
+<https://abiru.to/onibus/id/rede/deonibus/catarinense> {
     mun:4209508 ob:directTo mun:4208302 .
 
     mun:4107157 ob:directTo mun:4106902 .
@@ -22127,11 +22127,11 @@
             mun:4218707 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transporte-delfim> {
+<https://abiru.to/onibus/id/rede/deonibus/transporte-delfim> {
     mun:3133105 ob:directTo mun:3133006 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/catedral> {
+<https://abiru.to/onibus/id/rede/deonibus/catedral> {
     mun:1700707 ob:directTo mun:5221858 .
 
     mun:1707652 ob:directTo mun:5300108 .
@@ -23160,7 +23160,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/caburai-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/caburai-transportes> {
     mun:1303536 ob:directTo mun:1400100,
             mun:1400472 .
 
@@ -23171,7 +23171,7 @@
             mun:1400472 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/guerino-seiscento> {
+<https://abiru.to/onibus/id/rede/deonibus/guerino-seiscento> {
     mun:3516002 ob:directTo mun:3501608,
             mun:3509502,
             mun:3538709 .
@@ -25568,7 +25568,7 @@
             mun:5008305 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/asa-verde> {
+<https://abiru.to/onibus/id/rede/deonibus/asa-verde> {
     mun:5216304 ob:directTo mun:5218805 .
 
     mun:5218805 ob:directTo mun:5201454,
@@ -25577,7 +25577,7 @@
             mun:5216304 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transpen> {
+<https://abiru.to/onibus/id/rede/deonibus/transpen> {
     mun:3522406 ob:directTo mun:3550308 .
 
     mun:3552205 ob:directTo mun:4106902 .
@@ -25589,7 +25589,7 @@
     mun:3509502 ob:directTo mun:4106902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vallesul> {
+<https://abiru.to/onibus/id/rede/deonibus/vallesul> {
     mun:3551801 ob:directTo mun:3514809,
             mun:3542602 .
 
@@ -25761,24 +25761,24 @@
             mun:3542602 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/eldorado> {
+<https://abiru.to/onibus/id/rede/deonibus/eldorado> {
     mun:5105101 ob:directTo mun:5103403,
             mun:5107909 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/santa-izabel> {
+<https://abiru.to/onibus/id/rede/deonibus/santa-izabel> {
     mun:3170404 ob:directTo mun:5300108 .
 
     mun:5300108 ob:directTo mun:3170404 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/airport-bus> {
+<https://abiru.to/onibus/id/rede/deonibus/airport-bus> {
     mun:3518800 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3518800 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/bus-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/bus-transportes> {
     mun:1506138 ob:directTo mun:5208707 .
 
     mun:5205406 ob:directTo mun:1504208 .
@@ -25786,11 +25786,11 @@
     mun:5201108 ob:directTo mun:1716109 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/costa-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/costa-sul> {
     mun:3201209 ob:directTo mun:3204302 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/passaro-marron> {
+<https://abiru.to/onibus/id/rede/deonibus/passaro-marron> {
     mun:3515707 ob:directTo mun:3550308 .
 
     mun:3518305 ob:directTo mun:3550308 .
@@ -26239,7 +26239,7 @@
             mun:3555406 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/emtram> {
+<https://abiru.to/onibus/id/rede/deonibus/emtram> {
     mun:2901700 ob:directTo mun:3550308 .
 
     mun:2916856 ob:directTo mun:3550308 .
@@ -29449,13 +29449,13 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/guarani> {
+<https://abiru.to/onibus/id/rede/deonibus/guarani> {
     mun:3133204 ob:directTo mun:3127701 .
 
     mun:3127701 ob:directTo mun:3133204 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transpiaui> {
+<https://abiru.to/onibus/id/rede/deonibus/transpiaui> {
     mun:2200905 ob:directTo mun:2211001 .
 
     mun:2202059 ob:directTo loc:sobradinho-df,
@@ -30431,7 +30431,7 @@
             mun:5200803 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/solitur> {
+<https://abiru.to/onibus/id/rede/deonibus/solitur> {
     mun:2101608 ob:directTo mun:2111300 .
 
     mun:2112506 ob:directTo mun:2101251,
@@ -30472,7 +30472,7 @@
             mun:2112902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vale-do-mucury> {
+<https://abiru.to/onibus/id/rede/deonibus/vale-do-mucury> {
     mun:3145356 ob:directTo mun:3168606 .
 
     mun:3146206 ob:directTo mun:3126802,
@@ -30483,7 +30483,7 @@
     mun:3168606 ob:directTo mun:3126802 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/amatur> {
+<https://abiru.to/onibus/id/rede/deonibus/amatur> {
     mun:1101104 ob:directTo mun:1300144,
             mun:1301704 .
 
@@ -30570,7 +30570,7 @@
             mun:1400472 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vat> {
+<https://abiru.to/onibus/id/rede/deonibus/vat> {
     mun:3552205 ob:directTo mun:3506003 .
 
     mun:3541406 ob:directTo mun:3550308 .
@@ -30579,12 +30579,12 @@
             mun:3525904 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/motta> {
+<https://abiru.to/onibus/id/rede/deonibus/motta> {
     mun:3550308 ob:directTo mun:3514304,
             mun:5002704 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/princesa-dos-campos> {
+<https://abiru.to/onibus/id/rede/deonibus/princesa-dos-campos> {
     mun:4120804 ob:directTo mun:3509254,
             mun:3524600 .
 
@@ -31898,7 +31898,7 @@
             mun:4217204 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nobre-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/nobre-turismo> {
     mun:3152808 ob:directTo mun:3502804,
             mun:3506508,
             mun:3549805,
@@ -32196,7 +32196,7 @@
             mun:5218805 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nova-integracao> {
+<https://abiru.to/onibus/id/rede/deonibus/nova-integracao> {
     mun:5100250 ob:directTo mun:5107909 .
 
     mun:5003702 ob:directTo mun:4114609 .
@@ -32204,7 +32204,7 @@
     mun:4104808 ob:directTo mun:5003702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/empresa-moreira> {
+<https://abiru.to/onibus/id/rede/deonibus/empresa-moreira> {
     mun:5208707 ob:directTo mun:5101803,
             mun:5210406,
             mun:5212204,
@@ -32212,7 +32212,7 @@
             mun:5220207 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/princesa-do-norte> {
+<https://abiru.to/onibus/id/rede/deonibus/princesa-do-norte> {
     mun:3506003 ob:directTo mun:5300108 .
 
     mun:3170107 ob:directTo mun:4106902 .
@@ -32224,7 +32224,7 @@
     mun:3550308 ob:directTo mun:3534708 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/empresa-sao-cristovao> {
+<https://abiru.to/onibus/id/rede/deonibus/empresa-sao-cristovao> {
     mun:3114303 ob:directTo mun:5300108 .
 
     mun:3137502 ob:directTo mun:5300108 .
@@ -32342,7 +32342,7 @@
             mun:5206206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transpassos> {
+<https://abiru.to/onibus/id/rede/deonibus/transpassos> {
     mun:2515104 ob:directTo mun:2504009,
             mun:2508307 .
 
@@ -32378,7 +32378,7 @@
             mun:2515104 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-uniao> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-uniao> {
     loc:gama-df ob:directTo mun:3106200 .
 
     mun:3105103 ob:directTo mun:3550308 .
@@ -33321,19 +33321,19 @@
             mun:5211503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/unida-mansur> {
+<https://abiru.to/onibus/id/rede/deonibus/unida-mansur> {
     mun:3171303 ob:directTo mun:3304557 .
 
     mun:3304557 ob:directTo mun:3171303 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-sumare> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-sumare> {
     mun:3552403 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3552403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/helios> {
+<https://abiru.to/onibus/id/rede/deonibus/helios> {
     mun:4305108 ob:directTo mun:4119806 .
 
     mun:5201108 ob:directTo mun:1507300,
@@ -33342,2078 +33342,2078 @@
     mun:5208707 ob:directTo mun:1507300 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/edson-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/edson-turismo> {
     mun:3148004 ob:directTo mun:2918001 .
 
     mun:2933307 ob:directTo mun:3550308 .
 }
 
 {
-    <https://onibus.abiru.to/id/rede/deonibus/1001> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/1001> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 659 ;
         ob:operator op:1001 .
 
-    <https://onibus.abiru.to/id/rede/deonibus/acailandia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/acailandia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:acailandia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/aguia-branca> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/aguia-branca> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 3294 ;
         ob:operator op:aguia-branca .
 
-    <https://onibus.abiru.to/id/rede/deonibus/aguia-flex> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/aguia-flex> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 155 ;
         ob:operator op:aguia-flex .
 
-    <https://onibus.abiru.to/id/rede/deonibus/aguiar> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/aguiar> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 457 ;
         ob:operator op:aguiar .
 
-    <https://onibus.abiru.to/id/rede/deonibus/airport-bus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/airport-bus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:airport-bus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/alfa-luz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/alfa-luz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:alfa-luz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/alvorada> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/alvorada> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:alvorada .
 
-    <https://onibus.abiru.to/id/rede/deonibus/am-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/am-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 58 ;
         ob:operator op:am-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/amatur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/amatur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 64 ;
         ob:operator op:amatur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/amazontour> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/amazontour> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:amazontour .
 
-    <https://onibus.abiru.to/id/rede/deonibus/andorinha> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/andorinha> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1200 ;
         ob:operator op:andorinha .
 
-    <https://onibus.abiru.to/id/rede/deonibus/araes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/araes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:araes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/araguarina> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/araguarina> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:araguarina .
 
-    <https://onibus.abiru.to/id/rede/deonibus/araguatur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/araguatur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:araguatur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/araujo-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/araujo-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 483 ;
         ob:operator op:araujo-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/aries-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/aries-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:aries-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/arte-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/arte-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:arte-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/aruana> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/aruana> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:aruana .
 
-    <https://onibus.abiru.to/id/rede/deonibus/asa-verde> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/asa-verde> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:asa-verde .
 
-    <https://onibus.abiru.to/id/rede/deonibus/asatur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/asatur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 29 ;
         ob:operator op:asatur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/atibaia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/atibaia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 20 ;
         ob:operator op:atibaia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/atlantico-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/atlantico-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 4 ;
         ob:operator op:atlantico-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/atual> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/atual> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 41 ;
         ob:operator op:atual .
 
-    <https://onibus.abiru.to/id/rede/deonibus/bassamar> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/bassamar> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:bassamar .
 
-    <https://onibus.abiru.to/id/rede/deonibus/bella-vita> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/bella-vita> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:bella-vita .
 
-    <https://onibus.abiru.to/id/rede/deonibus/bento-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/bento-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 260 ;
         ob:operator op:bento-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/boa-esperanca> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/boa-esperanca> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1010 ;
         ob:operator op:boa-esperanca .
 
-    <https://onibus.abiru.to/id/rede/deonibus/bpa> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/bpa> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 14 ;
         ob:operator op:bpa .
 
-    <https://onibus.abiru.to/id/rede/deonibus/braganca> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/braganca> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 52 ;
         ob:operator op:braganca .
 
-    <https://onibus.abiru.to/id/rede/deonibus/brantur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/brantur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:brantur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/brasil-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/brasil-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 582 ;
         ob:operator op:brasil-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/brasileiro> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/brasileiro> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 260 ;
         ob:operator op:brasileiro .
 
-    <https://onibus.abiru.to/id/rede/deonibus/breda> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/breda> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:breda .
 
-    <https://onibus.abiru.to/id/rede/deonibus/brisa> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/brisa> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:brisa .
 
-    <https://onibus.abiru.to/id/rede/deonibus/bueno-viagens> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/bueno-viagens> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 217 ;
         ob:operator op:bueno-viagens .
 
-    <https://onibus.abiru.to/id/rede/deonibus/bus-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/bus-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:bus-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/buscoop> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/buscoop> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:buscoop .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cabral> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cabral> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:cabral .
 
-    <https://onibus.abiru.to/id/rede/deonibus/caburai-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/caburai-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:caburai-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/calvip> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/calvip> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:calvip .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cambui> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cambui> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:cambui .
 
-    <https://onibus.abiru.to/id/rede/deonibus/campo-belo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/campo-belo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:campo-belo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/camurujipe> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/camurujipe> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 28 ;
         ob:operator op:camurujipe .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cantelle> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cantelle> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 891 ;
         ob:operator op:cantelle .
 
-    <https://onibus.abiru.to/id/rede/deonibus/caruaruense> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/caruaruense> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:caruaruense .
 
-    <https://onibus.abiru.to/id/rede/deonibus/catarina> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/catarina> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 146 ;
         ob:operator op:catarina .
 
-    <https://onibus.abiru.to/id/rede/deonibus/catarinense> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/catarinense> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1628 ;
         ob:operator op:catarinense .
 
-    <https://onibus.abiru.to/id/rede/deonibus/catedral> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/catedral> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 956 ;
         ob:operator op:catedral .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cattani-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cattani-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 324 ;
         ob:operator op:cattani-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cecato> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cecato> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:cecato .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cerro-azul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cerro-azul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 4 ;
         ob:operator op:cerro-azul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cetro> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cetro> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 7 ;
         ob:operator op:cetro .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cidade-do-aco> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cidade-do-aco> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 73 ;
         ob:operator op:cidade-do-aco .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cidade-sol> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cidade-sol> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1390 ;
         ob:operator op:cidade-sol .
 
-    <https://onibus.abiru.to/id/rede/deonibus/citral> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/citral> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 164 ;
         ob:operator op:citral .
 
-    <https://onibus.abiru.to/id/rede/deonibus/colitur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/colitur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 6 ;
         ob:operator op:colitur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cometa> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cometa> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 790 ;
         ob:operator op:cometa .
 
-    <https://onibus.abiru.to/id/rede/deonibus/consorcio-metropolitano> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/consorcio-metropolitano> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:consorcio-metropolitano .
 
-    <https://onibus.abiru.to/id/rede/deonibus/continental> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/continental> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 76 ;
         ob:operator op:continental .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cordial-transporte-e-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cordial-transporte-e-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 12 ;
         ob:operator op:cordial-transporte-e-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/costa-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/costa-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:costa-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/costa-verde> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/costa-verde> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 20 ;
         ob:operator op:costa-verde .
 
-    <https://onibus.abiru.to/id/rede/deonibus/crisbell> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/crisbell> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 365 ;
         ob:operator op:crisbell .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cruzeiro> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cruzeiro> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:cruzeiro .
 
-    <https://onibus.abiru.to/id/rede/deonibus/cruzeiro-do-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/cruzeiro-do-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 276 ;
         ob:operator op:cruzeiro-do-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/danubio-azul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/danubio-azul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 311 ;
         ob:operator op:danubio-azul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/dumas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/dumas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 36 ;
         ob:operator op:dumas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/edson-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/edson-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:edson-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ega> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ega> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 74 ;
         ob:operator op:ega .
 
-    <https://onibus.abiru.to/id/rede/deonibus/eldorado> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/eldorado> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:eldorado .
 
-    <https://onibus.abiru.to/id/rede/deonibus/empresa-cruz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/empresa-cruz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:empresa-cruz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/empresa-moreira> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/empresa-moreira> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:empresa-moreira .
 
-    <https://onibus.abiru.to/id/rede/deonibus/empresa-sao-cristovao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/empresa-sao-cristovao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 99 ;
         ob:operator op:empresa-sao-cristovao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/emtram> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/emtram> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 3022 ;
         ob:operator op:emtram .
 
-    <https://onibus.abiru.to/id/rede/deonibus/eromave> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/eromave> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:eromave .
 
-    <https://onibus.abiru.to/id/rede/deonibus/esmeralda> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/esmeralda> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:esmeralda .
 
-    <https://onibus.abiru.to/id/rede/deonibus/estrela> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/estrela> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:estrela .
 
-    <https://onibus.abiru.to/id/rede/deonibus/eucatur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/eucatur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2915 ;
         ob:operator op:eucatur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/evolucao-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/evolucao-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 98 ;
         ob:operator op:evolucao-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/evt-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/evt-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:evt-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/exclusivetour> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/exclusivetour> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:exclusivetour .
 
-    <https://onibus.abiru.to/id/rede/deonibus/exdil> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/exdil> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:exdil .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expressa-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expressa-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 8 ;
         ob:operator op:expressa-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-adamantina> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-adamantina> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 499 ;
         ob:operator op:expresso-adamantina .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-amarelinho> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-amarelinho> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:expresso-amarelinho .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-araguari> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-araguari> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 79 ;
         ob:operator op:expresso-araguari .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-azul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-azul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 200 ;
         ob:operator op:expresso-azul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-brasileiro> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-brasileiro> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:expresso-brasileiro .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-brasilia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-brasilia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 25 ;
         ob:operator op:expresso-brasilia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-capital> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-capital> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:expresso-capital .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-caxiense> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-caxiense> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:expresso-caxiense .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-concorrencia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-concorrencia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:expresso-concorrencia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-de-luxo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-de-luxo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 6 ;
         ob:operator op:expresso-de-luxo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-de-prata> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-de-prata> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:expresso-de-prata .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-do-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-do-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 8 ;
         ob:operator op:expresso-do-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-espirito-santo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-espirito-santo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:expresso-espirito-santo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-frederes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-frederes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 28 ;
         ob:operator op:expresso-frederes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-itamarati> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-itamarati> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:expresso-itamarati .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-joia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-joia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 213 ;
         ob:operator op:expresso-joia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-luxo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-luxo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:expresso-luxo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-maia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-maia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:expresso-maia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-maringa> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-maringa> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:expresso-maringa .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-marlin> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-marlin> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:expresso-marlin .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-marly> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-marly> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 334 ;
         ob:operator op:expresso-marly .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-mato-grosso-do-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-mato-grosso-do-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:expresso-mato-grosso-do-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-metropolis> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-metropolis> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:expresso-metropolis .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-nordeste> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-nordeste> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1808 ;
         ob:operator op:expresso-nordeste .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-palmares> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-palmares> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 19 ;
         ob:operator op:expresso-palmares .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-princesa-do-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-princesa-do-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 215 ;
         ob:operator op:expresso-princesa-do-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-queiroz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-queiroz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:expresso-queiroz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-sao-jose> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-sao-jose> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 437 ;
         ob:operator op:expresso-sao-jose .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-sao-luiz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-sao-luiz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2322 ;
         ob:operator op:expresso-sao-luiz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-sao-marcos> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-sao-marcos> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:expresso-sao-marcos .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-sb> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-sb> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 34 ;
         ob:operator op:expresso-sb .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-solucao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-solucao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:expresso-solucao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-transamazonica> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-transamazonica> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 10 ;
         ob:operator op:expresso-transamazonica .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-transporte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-transporte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 7 ;
         ob:operator op:expresso-transporte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-uniao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-uniao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 819 ;
         ob:operator op:expresso-uniao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/expresso-vip> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/expresso-vip> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 16 ;
         ob:operator op:expresso-vip .
 
-    <https://onibus.abiru.to/id/rede/deonibus/fabbitur-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/fabbitur-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:fabbitur-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/falone> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/falone> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 197 ;
         ob:operator op:falone .
 
-    <https://onibus.abiru.to/id/rede/deonibus/flap-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/flap-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:flap-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/flixbus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/flixbus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 113 ;
         ob:operator op:flixbus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/floriano> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/floriano> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:floriano .
 
-    <https://onibus.abiru.to/id/rede/deonibus/fretcar> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/fretcar> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:fretcar .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gabrielle-day> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gabrielle-day> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 426 ;
         ob:operator op:gabrielle-day .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gadotti> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gadotti> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 190 ;
         ob:operator op:gadotti .
 
-    <https://onibus.abiru.to/id/rede/deonibus/garcia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/garcia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1822 ;
         ob:operator op:garcia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gardenia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gardenia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 153 ;
         ob:operator op:gardenia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/genesis-bus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/genesis-bus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 20 ;
         ob:operator op:genesis-bus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gil> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gil> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 261 ;
         ob:operator op:gil .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gipsyy> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gipsyy> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:gipsyy .
 
-    <https://onibus.abiru.to/id/rede/deonibus/giro-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/giro-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:giro-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/goianesia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/goianesia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 126 ;
         ob:operator op:goianesia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gontijo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gontijo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 4394 ;
         ob:operator op:gontijo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/graciosa> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/graciosa> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:graciosa .
 
-    <https://onibus.abiru.to/id/rede/deonibus/graciosa-transporte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/graciosa-transporte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 16 ;
         ob:operator op:graciosa-transporte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/gran-express> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/gran-express> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 523 ;
         ob:operator op:gran-express .
 
-    <https://onibus.abiru.to/id/rede/deonibus/guanabara> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/guanabara> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 6178 ;
         ob:operator op:guanabara .
 
-    <https://onibus.abiru.to/id/rede/deonibus/guarani> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/guarani> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:guarani .
 
-    <https://onibus.abiru.to/id/rede/deonibus/guerino-seiscento> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/guerino-seiscento> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2309 ;
         ob:operator op:guerino-seiscento .
 
-    <https://onibus.abiru.to/id/rede/deonibus/helios> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/helios> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:helios .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ingatur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ingatur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:ingatur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ipe-transporte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ipe-transporte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:ipe-transporte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/irmaos> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/irmaos> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:irmaos .
 
-    <https://onibus.abiru.to/id/rede/deonibus/irmaos-faria> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/irmaos-faria> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:irmaos-faria .
 
-    <https://onibus.abiru.to/id/rede/deonibus/irmaos-teixeira> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/irmaos-teixeira> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 8 ;
         ob:operator op:irmaos-teixeira .
 
-    <https://onibus.abiru.to/id/rede/deonibus/itanorte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/itanorte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 270 ;
         ob:operator op:itanorte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/itapemirim> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/itapemirim> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:itapemirim .
 
-    <https://onibus.abiru.to/id/rede/deonibus/itaqueri> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/itaqueri> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 20 ;
         ob:operator op:itaqueri .
 
-    <https://onibus.abiru.to/id/rede/deonibus/itauna> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/itauna> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:itauna .
 
-    <https://onibus.abiru.to/id/rede/deonibus/j-araujo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/j-araujo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 17 ;
         ob:operator op:j-araujo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/jamjoy> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/jamjoy> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 601 ;
         ob:operator op:jamjoy .
 
-    <https://onibus.abiru.to/id/rede/deonibus/jarlentur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/jarlentur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 711 ;
         ob:operator op:jarlentur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/jbl> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/jbl> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:jbl .
 
-    <https://onibus.abiru.to/id/rede/deonibus/jj-tur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/jj-tur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 863 ;
         ob:operator op:jj-tur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/jose-maria-rodrigues> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/jose-maria-rodrigues> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:jose-maria-rodrigues .
 
-    <https://onibus.abiru.to/id/rede/deonibus/jr4000> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/jr4000> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 36 ;
         ob:operator op:jr4000 .
 
-    <https://onibus.abiru.to/id/rede/deonibus/js-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/js-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 52 ;
         ob:operator op:js-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/juina> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/juina> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 20 ;
         ob:operator op:juina .
 
-    <https://onibus.abiru.to/id/rede/deonibus/juntos> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/juntos> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:juntos .
 
-    <https://onibus.abiru.to/id/rede/deonibus/kaissara> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/kaissara> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:kaissara .
 
-    <https://onibus.abiru.to/id/rede/deonibus/la-preferida-bus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/la-preferida-bus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:la-preferida-bus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/levare> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/levare> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 8 ;
         ob:operator op:levare .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lider-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lider-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:lider-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lideranca> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lideranca> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1259 ;
         ob:operator op:lideranca .
 
-    <https://onibus.abiru.to/id/rede/deonibus/linhatur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/linhatur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 12 ;
         ob:operator op:linhatur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lirabus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lirabus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 14 ;
         ob:operator op:lirabus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/litoranea> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/litoranea> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:litoranea .
 
-    <https://onibus.abiru.to/id/rede/deonibus/logtrans> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/logtrans> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 131 ;
         ob:operator op:logtrans .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lopes-e-cia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lopes-e-cia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:lopes-e-cia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lopes-sul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lopes-sul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 3748 ;
         ob:operator op:lopes-sul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lopestur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lopestur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1479 ;
         ob:operator op:lopestur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/lugar-viagens> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/lugar-viagens> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:lugar-viagens .
 
-    <https://onibus.abiru.to/id/rede/deonibus/luna-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/luna-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:luna-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/luxor> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/luxor> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 17 ;
         ob:operator op:luxor .
 
-    <https://onibus.abiru.to/id/rede/deonibus/manoel-rodrigues> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/manoel-rodrigues> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:manoel-rodrigues .
 
-    <https://onibus.abiru.to/id/rede/deonibus/marlim> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/marlim> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:marlim .
 
-    <https://onibus.abiru.to/id/rede/deonibus/marte-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/marte-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:marte-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/matriz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/matriz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 728 ;
         ob:operator op:matriz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/mingoti-tur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/mingoti-tur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 136 ;
         ob:operator op:mingoti-tur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/montes-belos> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/montes-belos> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 191 ;
         ob:operator op:montes-belos .
 
-    <https://onibus.abiru.to/id/rede/deonibus/motta> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/motta> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:motta .
 
-    <https://onibus.abiru.to/id/rede/deonibus/mp-viagens> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/mp-viagens> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:mp-viagens .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nacional> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nacional> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:nacional .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nacional-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nacional-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:nacional-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/natercia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/natercia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:natercia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/neuza-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/neuza-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:neuza-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nobre-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nobre-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 256 ;
         ob:operator op:nobre-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nordeste> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nordeste> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 22 ;
         ob:operator op:nordeste .
 
-    <https://onibus.abiru.to/id/rede/deonibus/normandy> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/normandy> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 6 ;
         ob:operator op:normandy .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nossa-senhora-aparecida> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nossa-senhora-aparecida> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:nossa-senhora-aparecida .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nossa-senhora-do-amparo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nossa-senhora-do-amparo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:nossa-senhora-do-amparo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nossa-senhora-do-carmo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nossa-senhora-do-carmo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:nossa-senhora-do-carmo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nossar> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nossar> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 5 ;
         ob:operator op:nossar .
 
-    <https://onibus.abiru.to/id/rede/deonibus/nova-integracao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/nova-integracao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:nova-integracao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/novo-horizonte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/novo-horizonte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:novo-horizonte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/oeste-de-minas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/oeste-de-minas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:oeste-de-minas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ouro-e-prata> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ouro-e-prata> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:ouro-e-prata .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ouro-verde> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ouro-verde> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 6 ;
         ob:operator op:ouro-verde .
 
-    <https://onibus.abiru.to/id/rede/deonibus/paraibuna> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/paraibuna> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 200 ;
         ob:operator op:paraibuna .
 
-    <https://onibus.abiru.to/id/rede/deonibus/parauna> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/parauna> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:parauna .
 
-    <https://onibus.abiru.to/id/rede/deonibus/passaro-marron> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/passaro-marron> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 394 ;
         ob:operator op:passaro-marron .
 
-    <https://onibus.abiru.to/id/rede/deonibus/passaro-verde> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/passaro-verde> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 475 ;
         ob:operator op:passaro-verde .
 
-    <https://onibus.abiru.to/id/rede/deonibus/penha> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/penha> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:penha .
 
-    <https://onibus.abiru.to/id/rede/deonibus/pernambucana> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/pernambucana> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 247 ;
         ob:operator op:pernambucana .
 
-    <https://onibus.abiru.to/id/rede/deonibus/petroacre> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/petroacre> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:petroacre .
 
-    <https://onibus.abiru.to/id/rede/deonibus/pevidor> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/pevidor> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:pevidor .
 
-    <https://onibus.abiru.to/id/rede/deonibus/piracema> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/piracema> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:piracema .
 
-    <https://onibus.abiru.to/id/rede/deonibus/piracicabana> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/piracicabana> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1436 ;
         ob:operator op:piracicabana .
 
-    <https://onibus.abiru.to/id/rede/deonibus/planalto> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/planalto> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 7 ;
         ob:operator op:planalto .
 
-    <https://onibus.abiru.to/id/rede/deonibus/planeta> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/planeta> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:planeta .
 
-    <https://onibus.abiru.to/id/rede/deonibus/platina> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/platina> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 31 ;
         ob:operator op:platina .
 
-    <https://onibus.abiru.to/id/rede/deonibus/plenna-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/plenna-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 19 ;
         ob:operator op:plenna-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/pluma> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/pluma> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:pluma .
 
-    <https://onibus.abiru.to/id/rede/deonibus/polentur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/polentur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:polentur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/pontual> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/pontual> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:pontual .
 
-    <https://onibus.abiru.to/id/rede/deonibus/porto-rico> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/porto-rico> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2040 ;
         ob:operator op:porto-rico .
 
-    <https://onibus.abiru.to/id/rede/deonibus/presidente> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/presidente> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 39 ;
         ob:operator op:presidente .
 
-    <https://onibus.abiru.to/id/rede/deonibus/pretti> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/pretti> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 68 ;
         ob:operator op:pretti .
 
-    <https://onibus.abiru.to/id/rede/deonibus/primar-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/primar-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 78 ;
         ob:operator op:primar-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/primeira-classe> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/primeira-classe> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:primeira-classe .
 
-    <https://onibus.abiru.to/id/rede/deonibus/princesa-do-norte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/princesa-do-norte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:princesa-do-norte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/princesa-dos-campos> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/princesa-dos-campos> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1215 ;
         ob:operator op:princesa-dos-campos .
 
-    <https://onibus.abiru.to/id/rede/deonibus/princesa-dos-inhamuns> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/princesa-dos-inhamuns> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 614 ;
         ob:operator op:princesa-dos-inhamuns .
 
-    <https://onibus.abiru.to/id/rede/deonibus/progresso-recife> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/progresso-recife> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 199 ;
         ob:operator op:progresso-recife .
 
-    <https://onibus.abiru.to/id/rede/deonibus/progresso-tres-rios> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/progresso-tres-rios> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:progresso-tres-rios .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-brasil> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-brasil> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:rapido-brasil .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-campinas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-campinas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 57 ;
         ob:operator op:rapido-campinas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-doeste> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-doeste> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:rapido-doeste .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-federal> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-federal> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 877 ;
         ob:operator op:rapido-federal .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-fenix> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-fenix> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 180 ;
         ob:operator op:rapido-fenix .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-goiasnorte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-goiasnorte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:rapido-goiasnorte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-marajo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-marajo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:rapido-marajo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-ribeirao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-ribeirao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 4 ;
         ob:operator op:rapido-ribeirao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rapido-sumare> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rapido-sumare> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:rapido-sumare .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rd-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rd-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 24 ;
         ob:operator op:rd-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-alagoas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-alagoas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 72 ;
         ob:operator op:real-alagoas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-bus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-bus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 52 ;
         ob:operator op:real-bus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-expresso> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-expresso> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2902 ;
         ob:operator op:real-expresso .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-maia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-maia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 648 ;
         ob:operator op:real-maia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-maia-goiania> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-maia-goiania> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 648 ;
         ob:operator op:real-maia-goiania .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-sul-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-sul-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1386 ;
         ob:operator op:real-sul-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/real-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/real-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:real-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/regional> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/regional> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:regional .
 
-    <https://onibus.abiru.to/id/rede/deonibus/reunidas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/reunidas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 3512 ;
         ob:operator op:reunidas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/reunidas-paulista> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/reunidas-paulista> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 594 ;
         ob:operator op:reunidas-paulista .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ricco-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ricco-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:ricco-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ril> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ril> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:ril .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rio-grande> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rio-grande> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:rio-grande .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rio-novo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rio-novo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1630 ;
         ob:operator op:rio-novo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rio-tinto> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rio-tinto> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 472 ;
         ob:operator op:rio-tinto .
 
-    <https://onibus.abiru.to/id/rede/deonibus/riodoce> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/riodoce> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:riodoce .
 
-    <https://onibus.abiru.to/id/rede/deonibus/roderotas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/roderotas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 7 ;
         ob:operator op:roderotas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rodoviario-oceano> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rodoviario-oceano> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 6 ;
         ob:operator op:rodoviario-oceano .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rota> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rota> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1448 ;
         ob:operator op:rota .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rota-do-mar> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rota-do-mar> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 45 ;
         ob:operator op:rota-do-mar .
 
-    <https://onibus.abiru.to/id/rede/deonibus/rutas-del-plata> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/rutas-del-plata> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 33 ;
         ob:operator op:rutas-del-plata .
 
-    <https://onibus.abiru.to/id/rede/deonibus/salutaris> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/salutaris> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:salutaris .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sampaio> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sampaio> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 201 ;
         ob:operator op:sampaio .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sandra> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sandra> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:sandra .
 
-    <https://onibus.abiru.to/id/rede/deonibus/santa-cruz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/santa-cruz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 353 ;
         ob:operator op:santa-cruz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/santa-izabel> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/santa-izabel> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:santa-izabel .
 
-    <https://onibus.abiru.to/id/rede/deonibus/santa-maria> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/santa-maria> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:santa-maria .
 
-    <https://onibus.abiru.to/id/rede/deonibus/santafe> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/santafe> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:santafe .
 
-    <https://onibus.abiru.to/id/rede/deonibus/santana> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/santana> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:santana .
 
-    <https://onibus.abiru.to/id/rede/deonibus/santo-anjo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/santo-anjo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 140 ;
         ob:operator op:santo-anjo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-benedito> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-benedito> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 98 ;
         ob:operator op:sao-benedito .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-bento> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-bento> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 46 ;
         ob:operator op:sao-bento .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-cristovao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-cristovao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:sao-cristovao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-gabriel> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-gabriel> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1 ;
         ob:operator op:sao-gabriel .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-geraldo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-geraldo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:sao-geraldo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-joao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-joao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:sao-joao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-jose> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-jose> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 266 ;
         ob:operator op:sao-jose .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-jose-rodoviario-e-turismo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-jose-rodoviario-e-turismo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:sao-jose-rodoviario-e-turismo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-luiz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-luiz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:sao-luiz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-matheus> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-matheus> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:sao-matheus .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sao-vicente> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sao-vicente> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:sao-vicente .
 
-    <https://onibus.abiru.to/id/rede/deonibus/saritur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/saritur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 1281 ;
         ob:operator op:saritur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/satelite-azul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/satelite-azul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 26 ;
         ob:operator op:satelite-azul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/satelite-norte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/satelite-norte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:satelite-norte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/serra-azul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/serra-azul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 304 ;
         ob:operator op:serra-azul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/serro> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/serro> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 361 ;
         ob:operator op:serro .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sertaneja> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sertaneja> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:sertaneja .
 
-    <https://onibus.abiru.to/id/rede/deonibus/setelagoano> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/setelagoano> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 77 ;
         ob:operator op:setelagoano .
 
-    <https://onibus.abiru.to/id/rede/deonibus/soares> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/soares> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:soares .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sol-nascente> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sol-nascente> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:sol-nascente .
 
-    <https://onibus.abiru.to/id/rede/deonibus/solimoes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/solimoes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:solimoes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/solitur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/solitur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 29 ;
         ob:operator op:solitur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/stilo> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/stilo> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 2 ;
         ob:operator op:stilo .
 
-    <https://onibus.abiru.to/id/rede/deonibus/suassui> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/suassui> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:suassui .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sudeste> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sudeste> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:sudeste .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sudoeste> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sudoeste> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 125 ;
         ob:operator op:sudoeste .
 
-    <https://onibus.abiru.to/id/rede/deonibus/sul-minas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/sul-minas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:sul-minas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tavares> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tavares> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:tavares .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tenda-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tenda-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 8 ;
         ob:operator op:tenda-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/teresopolis> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/teresopolis> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:teresopolis .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tiquin> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tiquin> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 43 ;
         ob:operator op:tiquin .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tocantinense> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tocantinense> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 173 ;
         ob:operator op:tocantinense .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tocantins-transporte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tocantins-transporte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:tocantins-transporte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/total> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/total> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:total .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tpc-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tpc-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:tpc-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/trans-acreana> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/trans-acreana> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:trans-acreana .
 
-    <https://onibus.abiru.to/id/rede/deonibus/trans-aguia> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/trans-aguia> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:trans-aguia .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transbrasiliana> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transbrasiliana> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:transbrasiliana .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transbraz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transbraz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:transbraz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transjao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transjao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:transjao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transleles> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transleles> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:transleles .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transmol> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transmol> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:transmol .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transnorte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transnorte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 533 ;
         ob:operator op:transnorte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transoares> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transoares> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:transoares .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transpassos> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transpassos> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 27 ;
         ob:operator op:transpassos .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transpen> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transpen> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 6 ;
         ob:operator op:transpen .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transpiaui> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transpiaui> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 913 ;
         ob:operator op:transpiaui .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transporte-delfim> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transporte-delfim> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:transporte-delfim .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transportes-caliman> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transportes-caliman> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:transportes-caliman .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transportes-santa-maria> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transportes-santa-maria> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 79 ;
         ob:operator op:transportes-santa-maria .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transprata> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transprata> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 12 ;
         ob:operator op:transprata .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transreal> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transreal> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:transreal .
 
-    <https://onibus.abiru.to/id/rede/deonibus/transur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/transur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 33 ;
         ob:operator op:transur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/tres-estrelas> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/tres-estrelas> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 52 ;
         ob:operator op:tres-estrelas .
 
-    <https://onibus.abiru.to/id/rede/deonibus/turin> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/turin> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:turin .
 
-    <https://onibus.abiru.to/id/rede/deonibus/ultra> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/ultra> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:ultra .
 
-    <https://onibus.abiru.to/id/rede/deonibus/umuarama> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/umuarama> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 394 ;
         ob:operator op:umuarama .
 
-    <https://onibus.abiru.to/id/rede/deonibus/unesul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/unesul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 5 ;
         ob:operator op:unesul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/uniao> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/uniao> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 180 ;
         ob:operator op:uniao .
 
-    <https://onibus.abiru.to/id/rede/deonibus/uniao-santa-cruz> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/uniao-santa-cruz> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 825 ;
         ob:operator op:uniao-santa-cruz .
 
-    <https://onibus.abiru.to/id/rede/deonibus/unica-facil> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/unica-facil> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 3 ;
         ob:operator op:unica-facil .
 
-    <https://onibus.abiru.to/id/rede/deonibus/unida-mansur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/unida-mansur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:unida-mansur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/util> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/util> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 764 ;
         ob:operator op:util .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vale-do-mucury> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vale-do-mucury> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:vale-do-mucury .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vale-do-tiete> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vale-do-tiete> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 28 ;
         ob:operator op:vale-do-tiete .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vallesul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vallesul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 153 ;
         ob:operator op:vallesul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/valtur> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/valtur> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 904 ;
         ob:operator op:valtur .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vat> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vat> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:vat .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vb-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vb-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 243 ;
         ob:operator op:vb-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vera-cruz-transporte> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vera-cruz-transporte> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 1 ;
         ob:operator op:vera-cruz-transporte .
 
-    <https://onibus.abiru.to/id/rede/deonibus/verde-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/verde-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:verde-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/via-goias> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/via-goias> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:via-goias .
 
-    <https://onibus.abiru.to/id/rede/deonibus/viaje-mais-barato> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/viaje-mais-barato> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 4 ;
         ob:operator op:viaje-mais-barato .
 
-    <https://onibus.abiru.to/id/rede/deonibus/viasul> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/viasul> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 5 ;
         ob:operator op:viasul .
 
-    <https://onibus.abiru.to/id/rede/deonibus/viatur-transportes> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/viatur-transportes> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 213 ;
         ob:operator op:viatur-transportes .
 
-    <https://onibus.abiru.to/id/rede/deonibus/vli-logistica> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/vli-logistica> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete false ;
         ob:linkCount 2 ;
         ob:operator op:vli-logistica .
 
-    <https://onibus.abiru.to/id/rede/deonibus/xavante> a ob:Network ;
+    <https://abiru.to/onibus/id/rede/deonibus/xavante> a ob:Network ;
         prov:wasDerivedFrom ds:deonibus ;
         ob:complete true ;
         ob:linkCount 629 ;
@@ -37363,7 +37363,7 @@
         schema:url <https://deonibus.com/viacao/xavante> .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rd-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/rd-turismo> {
     mun:2929107 ob:directTo mun:2908309,
             mun:2909802,
             mun:2911600,
@@ -37395,7 +37395,7 @@
             mun:2929602 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/kaissara> {
+<https://abiru.to/onibus/id/rede/deonibus/kaissara> {
     mun:3205309 ob:directTo mun:3304557 .
 
     mun:3304557 ob:directTo mun:3205309,
@@ -37407,7 +37407,7 @@
             mun:4106902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gran-express> {
+<https://abiru.to/onibus/id/rede/deonibus/gran-express> {
     mun:5101704 ob:directTo mun:1100023,
             mun:1100049,
             mun:1100114,
@@ -37961,7 +37961,7 @@
             mun:5219407 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ouro-verde> {
+<https://abiru.to/onibus/id/rede/deonibus/ouro-verde> {
     mun:3519071 ob:directTo mun:3550308 .
 
     mun:3552403 ob:directTo mun:3550308 .
@@ -37973,7 +37973,7 @@
             mun:3552403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-nordeste> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-nordeste> {
     mun:4104659 ob:directTo mun:3523206 .
 
     mun:4115101 ob:directTo mun:4108601,
@@ -39913,7 +39913,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/santo-anjo> {
+<https://abiru.to/onibus/id/rede/deonibus/santo-anjo> {
     mun:4207205 ob:directTo mun:4207304 .
 
     mun:4205704 ob:directTo mun:4205407,
@@ -40070,7 +40070,7 @@
             mun:4218707 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/aguiar> {
+<https://abiru.to/onibus/id/rede/deonibus/aguiar> {
     mun:2112308 ob:directTo mun:2111300 .
 
     mun:2104800 ob:directTo mun:2101251,
@@ -40568,11 +40568,11 @@
             mun:2114007 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/floriano> {
+<https://abiru.to/onibus/id/rede/deonibus/floriano> {
     mun:2211001 ob:directTo mun:2201903 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cidade-do-aco> {
+<https://abiru.to/onibus/id/rede/deonibus/cidade-do-aco> {
     mun:3302254 ob:directTo mun:3304557 .
 
     mun:3115508 ob:directTo mun:3304201,
@@ -40661,7 +40661,7 @@
             mun:3513405 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/pretti> {
+<https://abiru.to/onibus/id/rede/deonibus/pretti> {
     mun:3204559 ob:directTo mun:3200805,
             mun:3201308,
             mun:3201506,
@@ -40741,7 +40741,7 @@
             mun:3204559 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/jj-tur> {
+<https://abiru.to/onibus/id/rede/deonibus/jj-tur> {
     mun:1503705 ob:directTo mun:1500602,
             mun:1500859 .
 
@@ -41655,7 +41655,7 @@
             mun:1721000 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/itaqueri> {
+<https://abiru.to/onibus/id/rede/deonibus/itaqueri> {
     mun:3545159 ob:directTo mun:3538709 .
 
     mun:3500600 ob:directTo mun:3538709,
@@ -41684,7 +41684,7 @@
             mun:3554508 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transur> {
+<https://abiru.to/onibus/id/rede/deonibus/transur> {
     mun:3123007 ob:directTo mun:3105608,
             mun:3105905,
             mun:3152709,
@@ -41726,7 +41726,7 @@
             mun:3162500 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rutas-del-plata> {
+<https://abiru.to/onibus/id/rede/deonibus/rutas-del-plata> {
     loc:canelones-uy ob:directTo loc:minas-uy,
             loc:montevideo-uy,
             loc:rio-branco-uy,
@@ -41768,14 +41768,14 @@
             loc:rio-branco-uy .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/primeira-classe> {
+<https://abiru.to/onibus/id/rede/deonibus/primeira-classe> {
     mun:3550902 ob:directTo mun:5218805 .
 
     mun:5218805 ob:directTo mun:5210208,
             mun:5213756 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gontijo> {
+<https://abiru.to/onibus/id/rede/deonibus/gontijo> {
     mun:2516706 ob:directTo mun:2601201,
             mun:2606002 .
 
@@ -46642,11 +46642,11 @@
             mun:5221601 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nossa-senhora-aparecida> {
+<https://abiru.to/onibus/id/rede/deonibus/nossa-senhora-aparecida> {
     mun:1702109 ob:directTo mun:1721000 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/uniao> {
+<https://abiru.to/onibus/id/rede/deonibus/uniao> {
     mun:4214300 ob:directTo mun:4201406 .
 
     mun:4218103 ob:directTo mun:4201406,
@@ -46854,7 +46854,7 @@
             mun:4218707 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cattani-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/cattani-sul> {
     mun:1720499 ob:directTo mun:4118501,
             mun:4119806,
             mun:4121604 .
@@ -47208,7 +47208,7 @@
             mun:4118501 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/viasul> {
+<https://abiru.to/onibus/id/rede/deonibus/viasul> {
     mun:4309100 ob:directTo mun:4202008,
             mun:4208302 .
 
@@ -47219,7 +47219,7 @@
     mun:4205407 ob:directTo mun:4313409 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-itamarati> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-itamarati> {
     mun:3557105 ob:directTo mun:3550308 .
 
     mun:3549805 ob:directTo mun:3511102 .
@@ -47227,13 +47227,13 @@
     mun:3550308 ob:directTo mun:3549805 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/campo-belo> {
+<https://abiru.to/onibus/id/rede/deonibus/campo-belo> {
     mun:3106200 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3106200 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/jose-maria-rodrigues> {
+<https://abiru.to/onibus/id/rede/deonibus/jose-maria-rodrigues> {
     mun:3104601 ob:directTo mun:3136702 .
 
     mun:3128402 ob:directTo mun:3151305 .
@@ -47244,13 +47244,13 @@
             mun:3128402 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/pluma> {
+<https://abiru.to/onibus/id/rede/deonibus/pluma> {
     mun:3552205 ob:directTo mun:3304557 .
 
     mun:3304557 ob:directTo mun:3552205 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/irmaos-teixeira> {
+<https://abiru.to/onibus/id/rede/deonibus/irmaos-teixeira> {
     mun:3133808 ob:directTo mun:3122306 .
 
     mun:3122306 ob:directTo mun:3106200,
@@ -47263,7 +47263,7 @@
             mun:3140704 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vb-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/vb-transportes> {
     mun:3519055 ob:directTo mun:3550308 .
 
     mun:3536505 ob:directTo mun:3550308 .
@@ -47552,7 +47552,7 @@
             mun:3543907 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/boa-esperanca> {
+<https://abiru.to/onibus/id/rede/deonibus/boa-esperanca> {
     mun:1502103 ob:directTo mun:1501402 .
 
     mun:1500206 ob:directTo mun:1501402 .
@@ -48648,12 +48648,12 @@
             mun:2110005 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cecato> {
+<https://abiru.to/onibus/id/rede/deonibus/cecato> {
     mun:3127701 ob:directTo mun:3161601,
             mun:3165503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-geraldo> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-geraldo> {
     mun:3549805 ob:directTo mun:5006309,
             mun:5103403 .
 
@@ -48662,7 +48662,7 @@
     mun:5103403 ob:directTo mun:3549805 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gabrielle-day> {
+<https://abiru.to/onibus/id/rede/deonibus/gabrielle-day> {
     mun:1703826 ob:directTo mun:5208707 .
 
     mun:1702901 ob:directTo mun:5201108,
@@ -49130,7 +49130,7 @@
             mun:1722081 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/consorcio-metropolitano> {
+<https://abiru.to/onibus/id/rede/deonibus/consorcio-metropolitano> {
     mun:5103007 ob:directTo mun:5103403 .
 
     mun:5102678 ob:directTo mun:5103403 .
@@ -49140,7 +49140,7 @@
             mun:5104906 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/piracicabana> {
+<https://abiru.to/onibus/id/rede/deonibus/piracicabana> {
     mun:3540101 ob:directTo mun:3506003,
             mun:3542503 .
 
@@ -50714,12 +50714,12 @@
             mun:3556602 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-sao-marcos> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-sao-marcos> {
     mun:4205407 ob:directTo mun:4305108,
             mun:4321501 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/eucatur> {
+<https://abiru.to/onibus/id/rede/deonibus/eucatur> {
     mun:5108402 ob:directTo mun:5002704 .
 
     mun:1101708 ob:directTo mun:1100155 .
@@ -53772,7 +53772,7 @@
             mun:5219407 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-ribeirao> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-ribeirao> {
     mun:3551702 ob:directTo mun:3550308 .
 
     mun:3543402 ob:directTo mun:3550308 .
@@ -53781,7 +53781,7 @@
             mun:3551702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lideranca> {
+<https://abiru.to/onibus/id/rede/deonibus/lideranca> {
     mun:1716703 ob:directTo mun:1502152,
             mun:1502707,
             mun:1502954,
@@ -55097,7 +55097,7 @@
             mun:2112902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-maia> {
+<https://abiru.to/onibus/id/rede/deonibus/real-maia> {
     mun:1715150 ob:directTo mun:5208707,
             mun:5300108 .
 
@@ -55831,7 +55831,7 @@
             mun:5211503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/princesa-dos-inhamuns> {
+<https://abiru.to/onibus/id/rede/deonibus/princesa-dos-inhamuns> {
     mun:2303931 ob:directTo mun:2302800,
             mun:2311306 .
 
@@ -56500,7 +56500,7 @@
             mun:2313955 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/passaro-verde> {
+<https://abiru.to/onibus/id/rede/deonibus/passaro-verde> {
     mun:3140902 ob:directTo mun:3106200 .
 
     mun:3131901 ob:directTo mun:3146107,
@@ -57031,7 +57031,7 @@
             mun:3548906 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/via-goias> {
+<https://abiru.to/onibus/id/rede/deonibus/via-goias> {
     mun:3170206 ob:directTo mun:3550308 .
 
     mun:5208707 ob:directTo mun:3550308 .
@@ -57040,7 +57040,7 @@
             mun:5208707 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/araujo-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/araujo-transportes> {
     mun:2111904 ob:directTo mun:2101400,
             mun:2110203,
             mun:2111300 .
@@ -57567,7 +57567,7 @@
             mun:2112902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/crisbell> {
+<https://abiru.to/onibus/id/rede/deonibus/crisbell> {
     mun:2105989 ob:directTo mun:2111300 .
 
     mun:2109502 ob:directTo mun:2109106,
@@ -57983,7 +57983,7 @@
             mun:2114007 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-do-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-do-sul> {
     mun:3515004 ob:directTo mun:3304557 .
 
     mun:4205407 ob:directTo mun:4106902 .
@@ -57999,7 +57999,7 @@
             mun:4202008 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/santa-cruz> {
+<https://abiru.to/onibus/id/rede/deonibus/santa-cruz> {
     mun:3104106 ob:directTo mun:3530508 .
 
     mun:3110905 ob:directTo mun:3550308 .
@@ -58425,7 +58425,7 @@
             mun:3556404 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/parauna> {
+<https://abiru.to/onibus/id/rede/deonibus/parauna> {
     mun:5217104 ob:directTo mun:5208707 .
 
     mun:5204508 ob:directTo mun:5201108 .
@@ -58437,11 +58437,11 @@
     mun:5208707 ob:directTo mun:5204508 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sudeste> {
+<https://abiru.to/onibus/id/rede/deonibus/sudeste> {
     mun:3204203 ob:directTo mun:3200409 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/teresopolis> {
+<https://abiru.to/onibus/id/rede/deonibus/teresopolis> {
     mun:3305802 ob:directTo mun:3302502,
             mun:3303302,
             mun:3303906,
@@ -58452,7 +58452,7 @@
     mun:3304557 ob:directTo mun:3305802 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/atibaia> {
+<https://abiru.to/onibus/id/rede/deonibus/atibaia> {
     mun:3507100 ob:directTo mun:3532405 .
 
     mun:3525508 ob:directTo mun:3504107,
@@ -58480,7 +58480,7 @@
             mun:3538600 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/uniao-santa-cruz> {
+<https://abiru.to/onibus/id/rede/deonibus/uniao-santa-cruz> {
     mun:4308003 ob:directTo mun:4306700,
             mun:4314027 .
 
@@ -59377,7 +59377,7 @@
             mun:4322608 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/bento-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/bento-transportes> {
     mun:4300802 ob:directTo mun:4305108 .
 
     mun:4312807 ob:directTo mun:4302105,
@@ -59664,7 +59664,7 @@
             mun:4323309 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-concorrencia> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-concorrencia> {
     mun:1721000 ob:directTo mun:5208707 .
 
     mun:5103403 ob:directTo mun:5208707 .
@@ -59674,7 +59674,7 @@
             mun:5101803 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lopestur> {
+<https://abiru.to/onibus/id/rede/deonibus/lopestur> {
     mun:4302154 ob:directTo mun:4102604,
             mun:4206405,
             mun:4210506,
@@ -61207,37 +61207,37 @@
             mun:4320206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-gabriel> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-gabriel> {
     mun:3203056 ob:directTo mun:3204906 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tocantins-transporte> {
+<https://abiru.to/onibus/id/rede/deonibus/tocantins-transporte> {
     mun:1709500 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:1702109,
             mun:1721000 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/trans-acreana> {
+<https://abiru.to/onibus/id/rede/deonibus/trans-acreana> {
     mun:1200302 ob:directTo mun:1200609 .
 
     mun:1200609 ob:directTo mun:1200401 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/empresa-cruz> {
+<https://abiru.to/onibus/id/rede/deonibus/empresa-cruz> {
     mun:3550308 ob:directTo mun:3503208,
             mun:3543402,
             mun:3548906 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-capital> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-capital> {
     mun:1721000 ob:directTo mun:1709302,
             mun:1712009,
             mun:1713304,
             mun:1714880 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cambui> {
+<https://abiru.to/onibus/id/rede/deonibus/cambui> {
     mun:3110509 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3110608,
@@ -61245,7 +61245,7 @@
             mun:3522406 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-maia> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-maia> {
     mun:5210208 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:5204409,
@@ -61253,7 +61253,7 @@
             mun:5220108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/reunidas-paulista> {
+<https://abiru.to/onibus/id/rede/deonibus/reunidas-paulista> {
     mun:3518107 ob:directTo mun:3550308 .
 
     mun:3506706 ob:directTo mun:3503208,
@@ -61912,7 +61912,7 @@
             mun:5008305 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-jose-rodoviario-e-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-jose-rodoviario-e-turismo> {
     mun:3550001 ob:directTo mun:3555406 .
 
     mun:3555406 ob:directTo mun:3554102 .
@@ -61924,13 +61924,13 @@
             mun:3555406 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ingatur> {
+<https://abiru.to/onibus/id/rede/deonibus/ingatur> {
     mun:4107504 ob:directTo mun:4115200 .
 
     mun:4115200 ob:directTo mun:4107504 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/continental> {
+<https://abiru.to/onibus/id/rede/deonibus/continental> {
     mun:3100104 ob:directTo mun:3509502,
             mun:3516200,
             mun:3543402,
@@ -62025,7 +62025,7 @@
             mun:3162104 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-campinas> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-campinas> {
     mun:3541653 ob:directTo mun:3518503,
             mun:3554003 .
 
@@ -62101,7 +62101,7 @@
             mun:3523503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/calvip> {
+<https://abiru.to/onibus/id/rede/deonibus/calvip> {
     mun:3537503 ob:directTo mun:3512308 .
 
     mun:3507001 ob:directTo mun:3537503,
@@ -62110,7 +62110,7 @@
     mun:3554508 ob:directTo mun:3547809 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expressa-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/expressa-transportes> {
     mun:3205150 ob:directTo mun:3200904,
             mun:3203908 .
 
@@ -62123,7 +62123,7 @@
             mun:3205150 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/am-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/am-turismo> {
     mun:5101001 ob:directTo mun:5101803 .
 
     mun:5103908 ob:directTo mun:5100201,
@@ -62192,13 +62192,13 @@
             mun:5107040 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/la-preferida-bus> {
+<https://abiru.to/onibus/id/rede/deonibus/la-preferida-bus> {
     loc:santa-cruz-de-la-sierra-bo ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo loc:santa-cruz-de-la-sierra-bo .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/logtrans> {
+<https://abiru.to/onibus/id/rede/deonibus/logtrans> {
     mun:5107792 ob:directTo mun:5107040 .
 
     mun:5104203 ob:directTo mun:5107297,
@@ -62350,13 +62350,13 @@
             mun:5107602 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cruzeiro> {
+<https://abiru.to/onibus/id/rede/deonibus/cruzeiro> {
     mun:2611606 ob:directTo mun:2504009 .
 
     mun:2504009 ob:directTo mun:2611606 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/bella-vita> {
+<https://abiru.to/onibus/id/rede/deonibus/bella-vita> {
     mun:3143302 ob:directTo mun:3550308 .
 
     mun:3534401 ob:directTo mun:3106200 .
@@ -62366,7 +62366,7 @@
     mun:3550308 ob:directTo mun:2933307 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cantelle> {
+<https://abiru.to/onibus/id/rede/deonibus/cantelle> {
     mun:4219705 ob:directTo mun:2903201,
             mun:2919553,
             mun:3103504,
@@ -63295,7 +63295,7 @@
             mun:5218300 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/serra-azul> {
+<https://abiru.to/onibus/id/rede/deonibus/serra-azul> {
     mun:1100098 ob:directTo mun:1100189 .
 
     mun:5003751 ob:directTo mun:4104808,
@@ -63638,12 +63638,12 @@
             mun:5103403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/pontual> {
+<https://abiru.to/onibus/id/rede/deonibus/pontual> {
     mun:2504009 ob:directTo mun:2502508,
             mun:2504355 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-benedito> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-benedito> {
     mun:2304277 ob:directTo mun:2304400 .
 
     mun:2310258 ob:directTo mun:2304400 .
@@ -63763,7 +63763,7 @@
             mun:2313104 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/itapemirim> {
+<https://abiru.to/onibus/id/rede/deonibus/itapemirim> {
     mun:3304557 ob:directTo mun:3550308,
             mun:5300108 .
 
@@ -63775,7 +63775,7 @@
             mun:4106902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lopes-e-cia> {
+<https://abiru.to/onibus/id/rede/deonibus/lopes-e-cia> {
     mun:3144706 ob:directTo mun:3131307,
             mun:3168705 .
 
@@ -63786,13 +63786,13 @@
     mun:3131307 ob:directTo mun:3119401 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ipe-transporte> {
+<https://abiru.to/onibus/id/rede/deonibus/ipe-transporte> {
     mun:1200401 ob:directTo mun:1100205 .
 
     mun:1100205 ob:directTo mun:1200401 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cordial-transporte-e-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/cordial-transporte-e-turismo> {
     mun:3200607 ob:directTo mun:3202504,
             mun:3203130 .
 
@@ -63814,13 +63814,13 @@
     mun:3204906 ob:directTo mun:3201001 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-doeste> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-doeste> {
     mun:3549102 ob:directTo mun:3543402 .
 
     mun:3543402 ob:directTo mun:3549102 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/piracema> {
+<https://abiru.to/onibus/id/rede/deonibus/piracema> {
     mun:3200169 ob:directTo mun:3200904 .
 
     mun:3511508 ob:directTo mun:3554003 .
@@ -63834,7 +63834,7 @@
     mun:3201506 ob:directTo mun:3203205 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/levare> {
+<https://abiru.to/onibus/id/rede/deonibus/levare> {
     mun:3127008 ob:directTo mun:3549805,
             mun:3550308 .
 
@@ -63848,11 +63848,11 @@
             mun:3549805 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/novo-horizonte> {
+<https://abiru.to/onibus/id/rede/deonibus/novo-horizonte> {
     mun:3125952 ob:directTo mun:3161403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-frederes> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-frederes> {
     mun:4321105 ob:directTo mun:4303509,
             mun:4309050,
             mun:4314902 .
@@ -63889,7 +63889,7 @@
             mun:4321105 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-metropolis> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-metropolis> {
     mun:3549805 ob:directTo mun:3509502,
             mun:3511102,
             mun:3543402 .
@@ -63901,7 +63901,7 @@
     mun:3550308 ob:directTo mun:3557105 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-de-luxo> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-de-luxo> {
     mun:3114303 ob:directTo mun:3137502,
             mun:3148004 .
 
@@ -63912,7 +63912,7 @@
             mun:3137502 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-joia> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-joia> {
     mun:4112306 ob:directTo mun:3550308,
             mun:3552205 .
 
@@ -64152,7 +64152,7 @@
             mun:4127809 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/manoel-rodrigues> {
+<https://abiru.to/onibus/id/rede/deonibus/manoel-rodrigues> {
     mun:3534708 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3511409,
@@ -64160,20 +64160,20 @@
             mun:3546405 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-cristovao> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-cristovao> {
     mun:3122306 ob:directTo mun:3304557,
             mun:3550308 .
 
     mun:3550308 ob:directTo mun:3122306 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vli-logistica> {
+<https://abiru.to/onibus/id/rede/deonibus/vli-logistica> {
     mun:3168804 ob:directTo mun:3162500 .
 
     mun:3162500 ob:directTo mun:3168804 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/brasileiro> {
+<https://abiru.to/onibus/id/rede/deonibus/brasileiro> {
     mun:2903409 ob:directTo mun:2910727,
             mun:2927705 .
 
@@ -64459,13 +64459,13 @@
             mun:2931350 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/petroacre> {
+<https://abiru.to/onibus/id/rede/deonibus/petroacre> {
     mun:1200302 ob:directTo mun:1200401 .
 
     mun:1200401 ob:directTo mun:1200302 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-marajo> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-marajo> {
     mun:2207702 ob:directTo mun:5208707 .
 
     mun:1709500 ob:directTo mun:5208707 .
@@ -64476,7 +64476,7 @@
             mun:2211001 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/montes-belos> {
+<https://abiru.to/onibus/id/rede/deonibus/montes-belos> {
     mun:5207600 ob:directTo mun:5207808,
             mun:5208707,
             mun:5220108,
@@ -64692,7 +64692,7 @@
             mun:5220108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/matriz> {
+<https://abiru.to/onibus/id/rede/deonibus/matriz> {
     mun:5108402 ob:directTo mun:1100023,
             mun:1100049,
             mun:5208707 .
@@ -65473,7 +65473,7 @@
             mun:5220108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transbrasiliana> {
+<https://abiru.to/onibus/id/rede/deonibus/transbrasiliana> {
     mun:5221601 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:1709500,
@@ -65481,13 +65481,13 @@
             mun:5218003 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/santafe> {
+<https://abiru.to/onibus/id/rede/deonibus/santafe> {
     mun:3126109 ob:directTo mun:3106200 .
 
     mun:3106200 ob:directTo mun:3126109 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/estrela> {
+<https://abiru.to/onibus/id/rede/deonibus/estrela> {
     mun:5204508 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:5204508,
@@ -65495,7 +65495,7 @@
             mun:5211503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transportes-caliman> {
+<https://abiru.to/onibus/id/rede/deonibus/transportes-caliman> {
     mun:1504059 ob:directTo mun:1507953 .
 
     mun:1507953 ob:directTo mun:1505502,
@@ -65505,11 +65505,11 @@
             mun:1508001 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-solucao> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-solucao> {
     mun:5300108 ob:directTo mun:3143302 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/trans-aguia> {
+<https://abiru.to/onibus/id/rede/deonibus/trans-aguia> {
     mun:3170206 ob:directTo mun:3509502 .
 
     mun:5208707 ob:directTo mun:3543402,
@@ -65518,7 +65518,7 @@
     mun:3550308 ob:directTo mun:3170206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-luiz> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-luiz> {
     mun:5200134 ob:directTo mun:5208707 .
 
     mun:2903201 ob:directTo mun:5300108 .
@@ -65530,7 +65530,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/umuarama> {
+<https://abiru.to/onibus/id/rede/deonibus/umuarama> {
     mun:4103503 ob:directTo mun:4118857 .
 
     mun:5006358 ob:directTo mun:5007950 .
@@ -65964,7 +65964,7 @@
             mun:4128104 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/bpa> {
+<https://abiru.to/onibus/id/rede/deonibus/bpa> {
     mun:3119104 ob:directTo mun:3106200,
             mun:3120904,
             mun:3147402,
@@ -65983,7 +65983,7 @@
             mun:3167202 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/satelite-norte> {
+<https://abiru.to/onibus/id/rede/deonibus/satelite-norte> {
     mun:4106902 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo loc:taguatinga-df,
@@ -65993,7 +65993,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/falone> {
+<https://abiru.to/onibus/id/rede/deonibus/falone> {
     mun:2111904 ob:directTo mun:2101400,
             mun:2103505,
             mun:2106706,
@@ -66211,7 +66211,7 @@
             mun:2101400 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/planeta> {
+<https://abiru.to/onibus/id/rede/deonibus/planeta> {
     mun:3205200 ob:directTo mun:3202405 .
 
     mun:3205309 ob:directTo mun:3200409,
@@ -66219,7 +66219,7 @@
             mun:3203320 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sampaio> {
+<https://abiru.to/onibus/id/rede/deonibus/sampaio> {
     mun:3117702 ob:directTo mun:3304557 .
 
     mun:3143401 ob:directTo mun:3300407,
@@ -66460,7 +66460,7 @@
             mun:3554102 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/marte-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/marte-transportes> {
     mun:2910503 ob:directTo mun:2927408 .
 
     mun:2611101 ob:directTo mun:2910800 .
@@ -66468,7 +66468,7 @@
     mun:2927408 ob:directTo mun:2611101 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/viatur-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/viatur-transportes> {
     mun:5008404 ob:directTo mun:5000807,
             mun:5001904,
             mun:5002001,
@@ -66704,7 +66704,7 @@
             mun:5008305 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-araguari> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-araguari> {
     mun:3115003 ob:directTo mun:3103504,
             mun:3170206 .
 
@@ -66799,7 +66799,7 @@
             mun:3171006 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nossa-senhora-do-carmo> {
+<https://abiru.to/onibus/id/rede/deonibus/nossa-senhora-do-carmo> {
     mun:3137205 ob:directTo mun:3126109 .
 
     mun:3126109 ob:directTo mun:3104205,
@@ -66807,7 +66807,7 @@
             mun:3137205 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/plenna-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/plenna-transportes> {
     mun:2931509 ob:directTo mun:2910800,
             mun:2927408,
             mun:2930501 .
@@ -66833,7 +66833,7 @@
             mun:2931509 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gardenia> {
+<https://abiru.to/onibus/id/rede/deonibus/gardenia> {
     mun:3129707 ob:directTo mun:3516200 .
 
     mun:3505906 ob:directTo mun:3115102 .
@@ -67023,7 +67023,7 @@
             mun:3146008 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/valtur> {
+<https://abiru.to/onibus/id/rede/deonibus/valtur> {
     mun:4312708 ob:directTo mun:4102000,
             mun:4104808,
             mun:4105409,
@@ -67977,7 +67977,7 @@
             mun:5107958 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/mingoti-tur> {
+<https://abiru.to/onibus/id/rede/deonibus/mingoti-tur> {
     mun:4309605 ob:directTo mun:4202008,
             mun:4205407,
             mun:4208203,
@@ -68136,7 +68136,7 @@
             mun:4322400 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/exdil> {
+<https://abiru.to/onibus/id/rede/deonibus/exdil> {
     mun:3120607 ob:directTo mun:3132206,
             mun:3133808 .
 
@@ -68147,13 +68147,13 @@
             mun:3133808 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nacional-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/nacional-turismo> {
     mun:2504009 ob:directTo mun:2507507 .
 
     mun:2507507 ob:directTo mun:2504009 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rota> {
+<https://abiru.to/onibus/id/rede/deonibus/rota> {
     mun:2925907 ob:directTo mun:2902104,
             mun:2910800,
             mun:2927408,
@@ -69703,7 +69703,7 @@
             mun:2933307 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-amarelinho> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-amarelinho> {
     mun:3523206 ob:directTo mun:3510203 .
 
     mun:3522406 ob:directTo mun:3522307,
@@ -69715,7 +69715,7 @@
             mun:3510203 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-caxiense> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-caxiense> {
     mun:4304630 ob:directTo mun:4318705 .
 
     mun:4305108 ob:directTo mun:4304630,
@@ -69726,7 +69726,7 @@
     mun:4314902 ob:directTo mun:4305108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-marly> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-marly> {
     mun:5206800 ob:directTo mun:5208707,
             mun:5211800 .
 
@@ -70096,7 +70096,7 @@
             mun:5221809 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ouro-e-prata> {
+<https://abiru.to/onibus/id/rede/deonibus/ouro-e-prata> {
     mun:4204202 ob:directTo mun:4106902 .
 
     mun:4106902 ob:directTo mun:3515004,
@@ -70106,7 +70106,7 @@
     mun:3550308 ob:directTo mun:4106902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tiquin> {
+<https://abiru.to/onibus/id/rede/deonibus/tiquin> {
     mun:4321956 ob:directTo mun:4106902 .
 
     mun:4213401 ob:directTo mun:4312708 .
@@ -70164,7 +70164,7 @@
             mun:4320107 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/turin> {
+<https://abiru.to/onibus/id/rede/deonibus/turin> {
     mun:3145901 ob:directTo mun:3146107 .
 
     mun:3146107 ob:directTo mun:3131307,
@@ -70172,7 +70172,7 @@
             mun:3168705 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/neuza-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/neuza-turismo> {
     mun:1709500 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:1709500,
@@ -70180,7 +70180,7 @@
             mun:1716109 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/normandy> {
+<https://abiru.to/onibus/id/rede/deonibus/normandy> {
     mun:3302270 ob:directTo mun:3302908,
             mun:3303500,
             mun:3303856 .
@@ -70191,7 +70191,7 @@
     mun:3303500 ob:directTo mun:3303856 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/graciosa> {
+<https://abiru.to/onibus/id/rede/deonibus/graciosa> {
     mun:3502705 ob:directTo mun:4106902 .
 
     mun:4209102 ob:directTo mun:4109609 .
@@ -70199,18 +70199,18 @@
     mun:4106902 ob:directTo mun:4119954 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/atlantico-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/atlantico-transportes> {
     mun:2927408 ob:directTo mun:2910602,
             mun:2917904,
             mun:2927002,
             mun:2929206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/acailandia> {
+<https://abiru.to/onibus/id/rede/deonibus/acailandia> {
     mun:1505502 ob:directTo mun:1501402 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-jose> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-jose> {
     mun:2503803 ob:directTo mun:2500304,
             mun:2501104,
             mun:2507507,
@@ -70504,7 +70504,7 @@
             mun:2516003 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/js-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/js-turismo> {
     mun:5213806 ob:directTo mun:3170107,
             mun:3170206,
             mun:3509502,
@@ -70567,7 +70567,7 @@
             mun:5213806 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/gadotti> {
+<https://abiru.to/onibus/id/rede/deonibus/gadotti> {
     mun:4218202 ob:directTo mun:3515004,
             mun:3534401,
             mun:3547809,
@@ -70788,7 +70788,7 @@
             mun:4218202 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/serro> {
+<https://abiru.to/onibus/id/rede/deonibus/serro> {
     mun:3102407 ob:directTo mun:3117504 .
 
     mun:3118106 ob:directTo mun:3117504 .
@@ -71194,7 +71194,7 @@
             mun:3171204 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/progresso-tres-rios> {
+<https://abiru.to/onibus/id/rede/deonibus/progresso-tres-rios> {
     mun:2408102 ob:directTo mun:2507507,
             mun:2611606 .
 
@@ -71202,7 +71202,7 @@
             mun:2800308 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/salutaris> {
+<https://abiru.to/onibus/id/rede/deonibus/salutaris> {
     mun:2927408 ob:directTo mun:2800308 .
 
     mun:3304557 ob:directTo mun:3205309 .
@@ -71213,7 +71213,7 @@
             mun:3304557 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/atual> {
+<https://abiru.to/onibus/id/rede/deonibus/atual> {
     mun:3113107 ob:directTo mun:3112208,
             mun:3118304 .
 
@@ -71267,13 +71267,13 @@
             mun:3160702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/exclusivetour> {
+<https://abiru.to/onibus/id/rede/deonibus/exclusivetour> {
     mun:5103007 ob:directTo mun:5103403 .
 
     mun:5103403 ob:directTo mun:5103007 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tocantinense> {
+<https://abiru.to/onibus/id/rede/deonibus/tocantinense> {
     mun:1711902 ob:directTo mun:1706100,
             mun:1716109,
             mun:1721000 .
@@ -71474,7 +71474,7 @@
             mun:1721000 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/goianesia> {
+<https://abiru.to/onibus/id/rede/deonibus/goianesia> {
     mun:5211206 ob:directTo mun:5208707,
             mun:5208806,
             mun:5209606,
@@ -71616,7 +71616,7 @@
             mun:5221403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sudoeste> {
+<https://abiru.to/onibus/id/rede/deonibus/sudoeste> {
     mun:4116950 ob:directTo mun:4108403,
             mun:4117255,
             mun:4123006 .
@@ -71765,7 +71765,7 @@
             mun:4127858 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/genesis-bus> {
+<https://abiru.to/onibus/id/rede/deonibus/genesis-bus> {
     mun:5101704 ob:directTo mun:5102637,
             mun:5103403,
             mun:5105150,
@@ -71792,7 +71792,7 @@
             mun:5107958 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/braganca> {
+<https://abiru.to/onibus/id/rede/deonibus/braganca> {
     mun:3110608 ob:directTo mun:3550308 .
 
     mun:3113602 ob:directTo mun:3550308 .
@@ -71859,7 +71859,7 @@
             mun:3552106 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sul-minas> {
+<https://abiru.to/onibus/id/rede/deonibus/sul-minas> {
     mun:3101607 ob:directTo mun:3152501 .
 
     mun:3170701 ob:directTo mun:3151800,
@@ -71868,7 +71868,7 @@
     mun:3136702 ob:directTo mun:3170701 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/jarlentur> {
+<https://abiru.to/onibus/id/rede/deonibus/jarlentur> {
     mun:1706258 ob:directTo mun:5201108,
             mun:5201405,
             mun:5204706,
@@ -72626,7 +72626,7 @@
             mun:5211503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ultra> {
+<https://abiru.to/onibus/id/rede/deonibus/ultra> {
     mun:3518701 ob:directTo mun:3550308 .
 
     mun:3506359 ob:directTo mun:3550308 .
@@ -72636,7 +72636,7 @@
             mun:3548500 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/giro-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/giro-turismo> {
     mun:3132107 ob:directTo mun:5300108 .
 
     mun:3147006 ob:directTo mun:5300108 .
@@ -72645,7 +72645,7 @@
             mun:3143302 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-queiroz> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-queiroz> {
     mun:5006606 ob:directTo mun:5003702 .
 
     mun:5005707 ob:directTo mun:5003702 .
@@ -72657,7 +72657,7 @@
     mun:5002704 ob:directTo mun:5003702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-sao-jose> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-sao-jose> {
     mun:4321436 ob:directTo mun:4304630 .
 
     mun:4203956 ob:directTo mun:4106902,
@@ -73137,31 +73137,31 @@
             mun:4321600 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-matheus> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-matheus> {
     mun:3135456 ob:directTo mun:3141801 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-luxo> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-luxo> {
     mun:3548500 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3548500 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/brantur> {
+<https://abiru.to/onibus/id/rede/deonibus/brantur> {
     mun:4118501 ob:directTo mun:4104808 .
 
     mun:4104808 ob:directTo mun:4109302,
             mun:4118501 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sertaneja> {
+<https://abiru.to/onibus/id/rede/deonibus/sertaneja> {
     mun:3147006 ob:directTo mun:3106200 .
 
     mun:3106200 ob:directTo mun:3147006,
             mun:3169356 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tavares> {
+<https://abiru.to/onibus/id/rede/deonibus/tavares> {
     mun:1702109 ob:directTo mun:5208707 .
 
     mun:1709500 ob:directTo mun:5208707 .
@@ -73170,7 +73170,7 @@
             mun:1709500 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/costa-verde> {
+<https://abiru.to/onibus/id/rede/deonibus/costa-verde> {
     mun:3302601 ob:directTo mun:3304557 .
 
     mun:3302007 ob:directTo mun:3300100,
@@ -73199,7 +73199,7 @@
             mun:3303807 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/verde-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/verde-transportes> {
     mun:5217203 ob:directTo mun:5208707 .
 
     mun:3543402 ob:directTo mun:3550308 .
@@ -73210,7 +73210,7 @@
             mun:3551702 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ega> {
+<https://abiru.to/onibus/id/rede/deonibus/ega> {
     loc:ciudad-de-la-costa-uy ob:directTo mun:4205407,
             mun:4314407,
             mun:4314902 .
@@ -73311,7 +73311,7 @@
             loc:san-carlos-uy .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/graciosa-transporte> {
+<https://abiru.to/onibus/id/rede/deonibus/graciosa-transporte> {
     mun:4100202 ob:directTo mun:3502705 .
 
     mun:4115705 ob:directTo mun:4209102 .
@@ -73338,7 +73338,7 @@
     mun:4106902 ob:directTo mun:3502705 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/penha> {
+<https://abiru.to/onibus/id/rede/deonibus/penha> {
     mun:3304557 ob:directTo mun:3550308 .
 
     mun:4106902 ob:directTo mun:3550308,
@@ -73349,14 +73349,14 @@
             mun:4314902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/unica-facil> {
+<https://abiru.to/onibus/id/rede/deonibus/unica-facil> {
     mun:3303906 ob:directTo mun:3136702,
             mun:3300704 .
 
     mun:3304557 ob:directTo mun:3303906 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/araes> {
+<https://abiru.to/onibus/id/rede/deonibus/araes> {
     mun:5101803 ob:directTo mun:5102678 .
 
     mun:5107040 ob:directTo mun:5103403 .
@@ -73364,7 +73364,7 @@
     mun:5103403 ob:directTo mun:5101803 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/breda> {
+<https://abiru.to/onibus/id/rede/deonibus/breda> {
     mun:3541000 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3506359,
@@ -73372,7 +73372,7 @@
             mun:3551009 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/progresso-recife> {
+<https://abiru.to/onibus/id/rede/deonibus/progresso-recife> {
     mun:3140803 ob:directTo mun:3300951,
             mun:3306008 .
 
@@ -73605,7 +73605,7 @@
             mun:3306206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-expresso> {
+<https://abiru.to/onibus/id/rede/deonibus/real-expresso> {
     mun:3503000 ob:directTo mun:3509502,
             mun:3550308 .
 
@@ -76709,7 +76709,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/bassamar> {
+<https://abiru.to/onibus/id/rede/deonibus/bassamar> {
     mun:3139805 ob:directTo mun:3136702 .
 
     mun:3136702 ob:directTo mun:3127388,
@@ -76717,7 +76717,7 @@
             mun:3155900 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/paraibuna> {
+<https://abiru.to/onibus/id/rede/deonibus/paraibuna> {
     mun:3106101 ob:directTo mun:3136702 .
 
     mun:3110103 ob:directTo mun:3113305,
@@ -76955,7 +76955,7 @@
             mun:3165008 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lirabus> {
+<https://abiru.to/onibus/id/rede/deonibus/lirabus> {
     mun:3514908 ob:directTo mun:3531803 .
 
     mun:3556206 ob:directTo mun:3509502,
@@ -76978,7 +76978,7 @@
             mun:3556701 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/luxor> {
+<https://abiru.to/onibus/id/rede/deonibus/luxor> {
     mun:3127008 ob:directTo mun:3550308 .
 
     mun:3518800 ob:directTo mun:3106200,
@@ -77004,7 +77004,7 @@
             mun:3543402 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-sb> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-sb> {
     mun:4300638 ob:directTo mun:4303509,
             mun:4306056,
             mun:4306908,
@@ -77047,7 +77047,7 @@
             mun:4313953 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-federal> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-federal> {
     mun:3139805 ob:directTo mun:3304557 .
 
     mun:2205524 ob:directTo mun:5300108 .
@@ -78001,7 +78001,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rapido-brasil> {
+<https://abiru.to/onibus/id/rede/deonibus/rapido-brasil> {
     mun:3518701 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3518701,
@@ -78009,7 +78009,7 @@
             mun:3551009 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-joao> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-joao> {
     mun:3548500 ob:directTo mun:3525904 .
 
     mun:3525904 ob:directTo mun:3541000,
@@ -78017,7 +78017,7 @@
             mun:3551009 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-maia-goiania> {
+<https://abiru.to/onibus/id/rede/deonibus/real-maia-goiania> {
     mun:5107354 ob:directTo mun:5208707 .
 
     mun:1712157 ob:directTo mun:5208707,
@@ -78751,13 +78751,13 @@
             mun:5211503 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-marlin> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-marlin> {
     mun:1100130 ob:directTo mun:1100023 .
 
     mun:1100023 ob:directTo mun:1100130 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-transporte> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-transporte> {
     mun:4106902 ob:directTo mun:3170206,
             mun:3509502,
             mun:3550308 .
@@ -78770,7 +78770,7 @@
     mun:3550308 ob:directTo mun:4106902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/evt-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/evt-transportes> {
     mun:3518800 ob:directTo mun:3143302 .
 
     mun:3143302 ob:directTo mun:3550308 .
@@ -78779,7 +78779,7 @@
             mun:3157005 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/viaje-mais-barato> {
+<https://abiru.to/onibus/id/rede/deonibus/viaje-mais-barato> {
     mun:4115200 ob:directTo mun:3550308 .
 
     mun:5103403 ob:directTo mun:4115200,
@@ -78788,7 +78788,7 @@
     mun:3550308 ob:directTo mun:4113700 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rota-do-mar> {
+<https://abiru.to/onibus/id/rede/deonibus/rota-do-mar> {
     mun:2106375 ob:directTo mun:2101202,
             mun:2103000,
             mun:2104677,
@@ -78841,7 +78841,7 @@
             mun:2114007 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-azul> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-azul> {
     mun:4315156 ob:directTo mun:4311403 .
 
     mun:4308300 ob:directTo mun:4314902,
@@ -79070,17 +79070,17 @@
             mun:4321006 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/araguatur> {
+<https://abiru.to/onibus/id/rede/deonibus/araguatur> {
     mun:5208905 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:5208905 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/natercia> {
+<https://abiru.to/onibus/id/rede/deonibus/natercia> {
     mun:3132404 ob:directTo mun:3149101 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/esmeralda> {
+<https://abiru.to/onibus/id/rede/deonibus/esmeralda> {
     mun:3147006 ob:directTo mun:3106200 .
 
     mun:3106200 ob:directTo mun:3169356 .
@@ -79089,7 +79089,7 @@
             mun:3147006 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/santana> {
+<https://abiru.to/onibus/id/rede/deonibus/santana> {
     mun:2932903 ob:directTo mun:2910800 .
 
     mun:2910800 ob:directTo mun:2927408,
@@ -79098,7 +79098,7 @@
     mun:2927408 ob:directTo mun:2910800 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rio-grande> {
+<https://abiru.to/onibus/id/rede/deonibus/rio-grande> {
     mun:3111101 ob:directTo mun:3505500 .
 
     mun:3512100 ob:directTo mun:3111101,
@@ -79110,45 +79110,45 @@
     mun:3127107 ob:directTo mun:3512100 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tpc-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/tpc-transportes> {
     mun:3524006 ob:directTo mun:3548708 .
 
     mun:3547809 ob:directTo mun:3524006 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/polentur> {
+<https://abiru.to/onibus/id/rede/deonibus/polentur> {
     mun:1700301 ob:directTo mun:1714880 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/flap-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/flap-transportes> {
     mun:1600279 ob:directTo mun:1600303 .
 
     mun:1600303 ob:directTo mun:1600279 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/stilo> {
+<https://abiru.to/onibus/id/rede/deonibus/stilo> {
     mun:3104205 ob:directTo mun:3106200 .
 
     mun:3106200 ob:directTo mun:3104205 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/caruaruense> {
+<https://abiru.to/onibus/id/rede/deonibus/caruaruense> {
     mun:2611606 ob:directTo mun:2604106 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/itauna> {
+<https://abiru.to/onibus/id/rede/deonibus/itauna> {
     mun:5103403 ob:directTo mun:5107909 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/alfa-luz> {
+<https://abiru.to/onibus/id/rede/deonibus/alfa-luz> {
     mun:5300108 ob:directTo mun:5204508 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vera-cruz-transporte> {
+<https://abiru.to/onibus/id/rede/deonibus/vera-cruz-transporte> {
     mun:3153004 ob:directTo mun:3104007 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-alagoas> {
+<https://abiru.to/onibus/id/rede/deonibus/real-alagoas> {
     mun:2610004 ob:directTo mun:2611606,
             mun:2704302,
             mun:2800308 .
@@ -79236,7 +79236,7 @@
             mun:2704302 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/marlim> {
+<https://abiru.to/onibus/id/rede/deonibus/marlim> {
     mun:5213103 ob:directTo mun:5107602 .
 
     mun:5107602 ob:directTo mun:5208707 .
@@ -79248,7 +79248,7 @@
     mun:5208707 ob:directTo mun:5103403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transnorte> {
+<https://abiru.to/onibus/id/rede/deonibus/transnorte> {
     mun:3171030 ob:directTo mun:3135050,
             mun:3135100 .
 
@@ -79836,7 +79836,7 @@
             mun:3168002 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/evolucao-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/evolucao-transportes> {
     mun:5204854 ob:directTo mun:5208707 .
 
     mun:1716604 ob:directTo mun:1700400,
@@ -79956,7 +79956,7 @@
             mun:5221601 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/planalto> {
+<https://abiru.to/onibus/id/rede/deonibus/planalto> {
     mun:4315602 ob:directTo mun:4314902 .
 
     mun:4316907 ob:directTo mun:4314902 .
@@ -79969,11 +79969,11 @@
     mun:4106902 ob:directTo mun:3515004 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sol-nascente> {
+<https://abiru.to/onibus/id/rede/deonibus/sol-nascente> {
     mun:5107040 ob:directTo mun:5103403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/porto-rico> {
+<https://abiru.to/onibus/id/rede/deonibus/porto-rico> {
     mun:2206308 ob:directTo mun:2200202,
             mun:2200459,
             mun:2203602,
@@ -82106,11 +82106,11 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/solimoes> {
+<https://abiru.to/onibus/id/rede/deonibus/solimoes> {
     mun:4104808 ob:directTo mun:5002704 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rio-novo> {
+<https://abiru.to/onibus/id/rede/deonibus/rio-novo> {
     mun:5107743 ob:directTo mun:5103353 .
 
     mun:5106315 ob:directTo mun:5101852,
@@ -83836,7 +83836,7 @@
             mun:5220108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/nordeste> {
+<https://abiru.to/onibus/id/rede/deonibus/nordeste> {
     mun:2410900 ob:directTo mun:2400208,
             mun:2400802,
             mun:2408003 .
@@ -83866,20 +83866,20 @@
             mun:2410900 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/mp-viagens> {
+<https://abiru.to/onibus/id/rede/deonibus/mp-viagens> {
     mun:1504208 ob:directTo mun:1501402,
             mun:1505536 .
 
     mun:1501402 ob:directTo mun:1504208 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/alvorada> {
+<https://abiru.to/onibus/id/rede/deonibus/alvorada> {
     mun:3204203 ob:directTo mun:3205309 .
 
     mun:3205309 ob:directTo mun:3200409 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/luna-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/luna-turismo> {
     mun:5206206 ob:directTo mun:5212501 .
 
     mun:5201108 ob:directTo mun:5200308,
@@ -83890,12 +83890,12 @@
             mun:5212501 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/eromave> {
+<https://abiru.to/onibus/id/rede/deonibus/eromave> {
     mun:3143906 ob:directTo mun:3146701,
             mun:3171402 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-brasilia> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-brasilia> {
     mun:5204003 ob:directTo mun:3104502,
             mun:3116159,
             mun:3135209 .
@@ -83928,7 +83928,7 @@
             mun:5204003 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/santa-maria> {
+<https://abiru.to/onibus/id/rede/deonibus/santa-maria> {
     mun:3107406 ob:directTo mun:3122306 .
 
     mun:3145208 ob:directTo mun:3106200,
@@ -83938,7 +83938,7 @@
             mun:3145208 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/andorinha> {
+<https://abiru.to/onibus/id/rede/deonibus/andorinha> {
     mun:4108908 ob:directTo mun:3534708,
             mun:3550308 .
 
@@ -85263,13 +85263,13 @@
             mun:5213103 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-mato-grosso-do-sul> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-mato-grosso-do-sul> {
     mun:5001102 ob:directTo mun:5002704 .
 
     mun:5002704 ob:directTo mun:5003207 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/reunidas> {
+<https://abiru.to/onibus/id/rede/deonibus/reunidas> {
     mun:4207403 ob:directTo mun:4205407 .
 
     mun:4302204 ob:directTo mun:4204806 .
@@ -88969,7 +88969,7 @@
             mun:4317509 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cometa> {
+<https://abiru.to/onibus/id/rede/deonibus/cometa> {
     mun:3513108 ob:directTo mun:3543402 .
 
     mun:3167806 ob:directTo mun:3518800,
@@ -89854,7 +89854,7 @@
             mun:4106902 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/vale-do-tiete> {
+<https://abiru.to/onibus/id/rede/deonibus/vale-do-tiete> {
     mun:3524006 ob:directTo mun:3523909,
             mun:3545209,
             mun:3550308 .
@@ -89895,7 +89895,7 @@
             mun:3554508 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/bueno-viagens> {
+<https://abiru.to/onibus/id/rede/deonibus/bueno-viagens> {
     mun:1712009 ob:directTo mun:1702109 .
 
     mun:1707702 ob:directTo mun:2111607,
@@ -90146,14 +90146,14 @@
             mun:1721000 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/juntos> {
+<https://abiru.to/onibus/id/rede/deonibus/juntos> {
     mun:5220207 ob:directTo mun:5208707 .
 
     mun:5208707 ob:directTo mun:5214002,
             mun:5220207 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/rio-tinto> {
+<https://abiru.to/onibus/id/rede/deonibus/rio-tinto> {
     mun:2512721 ob:directTo mun:2507309,
             mun:2507507,
             mun:2508901 .
@@ -90670,13 +90670,13 @@
             mun:2516409 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/fretcar> {
+<https://abiru.to/onibus/id/rede/deonibus/fretcar> {
     mun:2304400 ob:directTo mun:2300200,
             mun:2306553,
             mun:2311405 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/1001> {
+<https://abiru.to/onibus/id/rede/deonibus/1001> {
     mun:3124906 ob:directTo mun:3304557 .
 
     mun:3148202 ob:directTo mun:3304557 .
@@ -91406,7 +91406,7 @@
             mun:4218004 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/jr4000> {
+<https://abiru.to/onibus/id/rede/deonibus/jr4000> {
     mun:2112001 ob:directTo mun:2101400 .
 
     mun:2104552 ob:directTo mun:2101400,
@@ -91456,11 +91456,11 @@
             mun:2111607 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/aruana> {
+<https://abiru.to/onibus/id/rede/deonibus/aruana> {
     mun:1302603 ob:directTo mun:1301704 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cidade-sol> {
+<https://abiru.to/onibus/id/rede/deonibus/cidade-sol> {
     mun:2912202 ob:directTo mun:2927408 .
 
     mun:2914505 ob:directTo mun:2900702,
@@ -92972,7 +92972,7 @@
             mun:2933604 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-sao-luiz> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-sao-luiz> {
     mun:1505700 ob:directTo mun:5208707 .
 
     mun:5209200 ob:directTo mun:5208707 .
@@ -95393,7 +95393,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ril> {
+<https://abiru.to/onibus/id/rede/deonibus/ril> {
     mun:3519600 ob:directTo mun:3506003 .
 
     mun:3522703 ob:directTo mun:3543402 .
@@ -95406,7 +95406,7 @@
             mun:3553708 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/platina> {
+<https://abiru.to/onibus/id/rede/deonibus/platina> {
     mun:2205532 ob:directTo mun:3134202,
             mun:3169604,
             mun:3170206 .
@@ -95448,15 +95448,15 @@
             mun:3170107 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transjao> {
+<https://abiru.to/onibus/id/rede/deonibus/transjao> {
     mun:5106752 ob:directTo mun:5103403 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transreal> {
+<https://abiru.to/onibus/id/rede/deonibus/transreal> {
     mun:3152105 ob:directTo mun:3125309 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/primar-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/primar-turismo> {
     mun:3300100 ob:directTo mun:3510500,
             mun:3549904,
             mun:3550308 .
@@ -95553,7 +95553,7 @@
             mun:3303807 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-vip> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-vip> {
     mun:2107704 ob:directTo mun:2108454,
             mun:2111300 .
 
@@ -95577,7 +95577,7 @@
             mun:2111102 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/unesul> {
+<https://abiru.to/onibus/id/rede/deonibus/unesul> {
     mun:4307203 ob:directTo mun:4307005,
             mun:4319703,
             mun:4323507 .
@@ -95587,13 +95587,13 @@
     mun:4322509 ob:directTo mun:4209300 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/irmaos> {
+<https://abiru.to/onibus/id/rede/deonibus/irmaos> {
     mun:3138674 ob:directTo mun:3139409 .
 
     mun:3139409 ob:directTo mun:3138674 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/soares> {
+<https://abiru.to/onibus/id/rede/deonibus/soares> {
     mun:2408102 ob:directTo mun:2507507 .
 
     mun:2611606 ob:directTo mun:2304400,
@@ -95603,13 +95603,13 @@
             mun:2611606 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/oeste-de-minas> {
+<https://abiru.to/onibus/id/rede/deonibus/oeste-de-minas> {
     mun:3133808 ob:directTo mun:3122306 .
 
     mun:3122306 ob:directTo mun:3133808 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transleles> {
+<https://abiru.to/onibus/id/rede/deonibus/transleles> {
     mun:5222005 ob:directTo mun:5208707,
             mun:5212501 .
 
@@ -95621,7 +95621,7 @@
     mun:5208707 ob:directTo mun:5206206 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-sul-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/real-sul-turismo> {
     mun:1705607 ob:directTo mun:1714203,
             mun:1718204,
             mun:1721000,
@@ -97107,7 +97107,7 @@
             mun:5221601 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lugar-viagens> {
+<https://abiru.to/onibus/id/rede/deonibus/lugar-viagens> {
     mun:5105150 ob:directTo mun:5103403 .
 
     mun:5106752 ob:directTo mun:5103403 .
@@ -97117,7 +97117,7 @@
             mun:5107958 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/real-bus> {
+<https://abiru.to/onibus/id/rede/deonibus/real-bus> {
     mun:2502151 ob:directTo mun:2504009,
             mun:2507507,
             mun:2509701,
@@ -97180,7 +97180,7 @@
             mun:2516300 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/setelagoano> {
+<https://abiru.to/onibus/id/rede/deonibus/setelagoano> {
     mun:3109600 ob:directTo mun:3131000,
             mun:3167202 .
 
@@ -97274,12 +97274,12 @@
             mun:3167202 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/amazontour> {
+<https://abiru.to/onibus/id/rede/deonibus/amazontour> {
     mun:1600303 ob:directTo mun:1600212,
             mun:1600279 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/cerro-azul> {
+<https://abiru.to/onibus/id/rede/deonibus/cerro-azul> {
     mun:4105201 ob:directTo mun:4106902 .
 
     mun:4100202 ob:directTo mun:4106902 .
@@ -97288,12 +97288,12 @@
             mun:4105201 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/suassui> {
+<https://abiru.to/onibus/id/rede/deonibus/suassui> {
     mun:3127701 ob:directTo mun:3100609,
             mun:3112307 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/dumas> {
+<https://abiru.to/onibus/id/rede/deonibus/dumas> {
     loc:arroyito-ar ob:directTo mun:4202008 .
 
     loc:parana-ar ob:directTo mun:4202008,
@@ -97341,7 +97341,7 @@
             loc:santa-fe-ar .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/garcia> {
+<https://abiru.to/onibus/id/rede/deonibus/garcia> {
     mun:4110003 ob:directTo mun:4116307,
             mun:4123402 .
 
@@ -99311,7 +99311,7 @@
             mun:5005707 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/flixbus> {
+<https://abiru.to/onibus/id/rede/deonibus/flixbus> {
     mun:4212502 ob:directTo mun:3550308,
             mun:4106902 .
 
@@ -99459,7 +99459,7 @@
             mun:4212502 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/j-araujo> {
+<https://abiru.to/onibus/id/rede/deonibus/j-araujo> {
     mun:4117701 ob:directTo mun:4106902,
             mun:4109401,
             mun:4110706 .
@@ -99483,7 +99483,7 @@
             mun:4212056 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/litoranea> {
+<https://abiru.to/onibus/id/rede/deonibus/litoranea> {
     mun:3506359 ob:directTo mun:3550308 .
 
     mun:3550308 ob:directTo mun:3506359,
@@ -99492,7 +99492,7 @@
             mun:3555406 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/sao-bento> {
+<https://abiru.to/onibus/id/rede/deonibus/sao-bento> {
     mun:3544905 ob:directTo mun:3531902,
             mun:3533601,
             mun:3534302,
@@ -99548,7 +99548,7 @@
             mun:3549409 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/tenda-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/tenda-transportes> {
     mun:3102100 ob:directTo mun:3105608 .
 
     mun:3116308 ob:directTo mun:3105608 .
@@ -99563,7 +99563,7 @@
             mun:3155801 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/ricco-transportes> {
+<https://abiru.to/onibus/id/rede/deonibus/ricco-transportes> {
     mun:2807402 ob:directTo mun:3106200 .
 
     mun:2933307 ob:directTo mun:3143302 .
@@ -99576,7 +99576,7 @@
     mun:3550308 ob:directTo mun:2933307 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/xavante> {
+<https://abiru.to/onibus/id/rede/deonibus/xavante> {
     mun:5107883 ob:directTo mun:5201702,
             mun:5208707,
             mun:5220108 .
@@ -100263,7 +100263,7 @@
             mun:5300108 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/jamjoy> {
+<https://abiru.to/onibus/id/rede/deonibus/jamjoy> {
     mun:3125101 ob:directTo mun:2913606 .
 
     mun:1702208 ob:directTo mun:1502152,
@@ -100935,7 +100935,7 @@
             mun:3168606 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/asatur> {
+<https://abiru.to/onibus/id/rede/deonibus/asatur> {
     mun:1400605 ob:directTo mun:1400100,
             mun:1400209,
             mun:1400233,
@@ -100974,7 +100974,7 @@
             mun:1400472 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-palmares> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-palmares> {
     mun:4301636 ob:directTo mun:4305454 .
 
     mun:4305454 ob:directTo mun:4301636 .
@@ -101002,14 +101002,14 @@
             mun:4321352 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/lider-turismo> {
+<https://abiru.to/onibus/id/rede/deonibus/lider-turismo> {
     mun:2211001 ob:directTo mun:2204709,
             mun:2205201,
             mun:2207801,
             mun:2208007 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/transmol> {
+<https://abiru.to/onibus/id/rede/deonibus/transmol> {
     mun:5107909 ob:directTo mun:5103403,
             mun:5107925 .
 
@@ -101017,13 +101017,13 @@
             mun:5107909 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/expresso-espirito-santo> {
+<https://abiru.to/onibus/id/rede/deonibus/expresso-espirito-santo> {
     mun:5208004 ob:directTo mun:5300108 .
 
     mun:5300108 ob:directTo mun:5208004 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/total> {
+<https://abiru.to/onibus/id/rede/deonibus/total> {
     mun:2611606 ob:directTo mun:2507507 .
 
     mun:2507507 ob:directTo mun:2611606 .
@@ -101035,7 +101035,7 @@
     mun:3550308 ob:directTo mun:5002704 .
 }
 
-<https://onibus.abiru.to/id/rede/deonibus/citral> {
+<https://abiru.to/onibus/id/rede/deonibus/citral> {
     mun:4306403 ob:directTo mun:4304408,
             mun:4309100,
             mun:4312476,

@@ -15,7 +15,7 @@
 
 // ===================== vocabulário =====================
 
-const SITE = 'https://onibus.abiru.to/';
+const SITE = 'https://abiru.to/onibus/';
 const NS = {
   ob: SITE + 'def#',
   ds: SITE + 'id/dataset/',
@@ -1189,7 +1189,7 @@ function renderAbout(loadReport) {
     `No store agora: ${fmtInt(store.size)} quads em ${fmtInt(graphs)} grafos nomeados.`;
 }
 
-const SPARQL_PREFIXES = `PREFIX ob: <https://onibus.abiru.to/def#>
+const SPARQL_PREFIXES = `PREFIX ob: <https://abiru.to/onibus/def#>
 PREFIX schema: <https://schema.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 `;
